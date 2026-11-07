@@ -1,0 +1,76 @@
+po_number,true_label,true_type,pred_violation,pred_type,reason,valid_json,sec,out_tokens
+PO-14810,violation,VENDOR_CREATE_PAY,True,VENDOR_CREATE_PAY,The user who created the vendor also posted the payment.,True,0.9545431137084961,33
+PO-10660,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5423953533172607,34
+PO-14723,violation,SELF_APPROVAL,True,VENDOR_CREATE_PAY,The user who created the vendor also posted the payment.,True,0.5230426788330078,33
+PO-13063,normal,NONE,True,VENDOR_CREATE_PAY,The user who created the vendor must not post payments to that vendor.,True,0.564857006072998,36
+PO-12409,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5395164489746094,34
+PO-14879,violation,MISSING_APPROVAL,True,VENDOR_CREATE_PAY,The user who created the vendor must not post payments to that vendor.,True,0.562279462814331,36
+PO-12793,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5405266284942627,34
+PO-14985,violation,SPLIT_BELOW_THRESHOLD,True,VENDOR_CREATE_PAY,The user who created the vendor also posted the payment.,True,0.5263803005218506,33
+PO-14986,violation,SPLIT_BELOW_THRESHOLD,True,VENDOR_CREATE_PAY,The user who created the vendor also posted the payment.,True,0.5264167785644531,33
+PO-14416,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5385167598724365,34
+PO-10959,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5421657562255859,34
+PO-12957,normal,NONE,True,VENDOR_CREATE_PAY,The user who created the vendor must not post payments to that vendor.,True,0.5704009532928467,36
+PO-14622,violation,SOD_CREATE_PAY,True,VENDOR_CREATE_PAY,The user who created the vendor also posted the payment.,True,0.5296890735626221,33
+PO-11835,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5425291061401367,34
+PO-14885,violation,MISSING_APPROVAL,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5328495502471924,34
+PO-12267,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.539539098739624,34
+PO-14771,violation,SELF_APPROVAL,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.48604536056518555,30
+PO-14066,normal,NONE,True,VENDOR_CREATE_PAY,The user who created the vendor must not post payments to that vendor.,True,0.5687799453735352,36
+PO-10680,normal,NONE,True,VENDOR_CREATE_PAY,The user who created the vendor must not post payments to that vendor.,True,0.5906176567077637,36
+PO-12696,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5450544357299805,34
+PO-13285,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5429964065551758,34
+PO-10674,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5395207405090332,34
+PO-10495,normal,NONE,True,VENDOR_CREATE_PAY,The user who created the vendor also posted the payment.,True,0.5376784801483154,33
+PO-11804,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5413150787353516,34
+PO-11451,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5440185070037842,34
+PO-13159,normal,NONE,True,VENDOR_CREATE_PAY,The user who created the vendor also posted the payment.,True,0.5326085090637207,33
+PO-14983,violation,SPLIT_BELOW_THRESHOLD,True,VENDOR_CREATE_PAY,The user who created the vendor also posted the payment.,True,0.5309686660766602,33
+PO-11366,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5442888736724854,34
+PO-14374,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5402336120605469,34
+PO-14842,violation,VENDOR_CREATE_PAY,True,VENDOR_CREATE_PAY,The user who created the vendor also posted the payment.,True,0.5358376502990723,33
+PO-10044,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5462691783905029,34
+PO-14627,violation,SOD_CREATE_PAY,True,VENDOR_CREATE_PAY,The user who created the vendor must not post payments to that vendor.,True,0.5715005397796631,36
+PO-13140,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5466644763946533,34
+PO-11969,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.544888973236084,34
+PO-10669,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5435445308685303,34
+PO-12317,normal,NONE,True,VENDOR_CREATE_PAY,The user who created the vendor must not post payments to that vendor.,True,0.5729968547821045,36
+PO-14876,violation,MISSING_APPROVAL,True,VENDOR_CREATE_PAY,The user who created the vendor also posted the payment.,True,0.522517204284668,33
+PO-14692,violation,SELF_APPROVAL,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.505889892578125,31
+PO-14788,violation,VENDOR_CREATE_PAY,True,VENDOR_CREATE_PAY,The user who created the vendor also posted the payment.,True,0.5326411724090576,33
+PO-14607,violation,SOD_CREATE_PAY,True,VENDOR_CREATE_PAY,The user who created the vendor must not post payments to that vendor.,True,0.5727505683898926,36
+PO-12886,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5506784915924072,34
+PO-12996,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5025362968444824,31
+PO-14676,violation,SOD_CREATE_PAY,True,VENDOR_CREATE_PAY,The user who created the vendor also posted the payment.,True,0.5323107242584229,33
+PO-10137,normal,NONE,True,VENDOR_CREATE_PAY,The user who created the vendor also posted the payment.,True,0.5353679656982422,33
+PO-10026,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5521228313446045,34
+PO-14760,violation,SELF_APPROVAL,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.4910917282104492,30
+PO-14847,violation,VENDOR_CREATE_PAY,True,VENDOR_CREATE_PAY,The user who created the vendor also posted the payment.,True,0.5299773216247559,33
+PO-14984,violation,SPLIT_BELOW_THRESHOLD,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5412023067474365,34
+PO-14895,violation,MISSING_APPROVAL,True,VENDOR_CREATE_PAY,The user who created the vendor posted the payment.,True,0.5119764804840088,32
+PO-13813,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5404393672943115,34
+PO-11064,normal,NONE,True,VENDOR_CREATE_PAY,The user who created the vendor also posted the payment.,True,0.5320866107940674,33
+PO-14873,violation,MISSING_APPROVAL,True,VENDOR_CREATE_PAY,The user who created the vendor also posted the payment.,True,0.522040605545044,33
+PO-14642,violation,SOD_CREATE_PAY,True,VENDOR_CREATE_PAY,The user who created the vendor also posted the payment.,True,0.5329267978668213,33
+PO-13016,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.54860520362854,34
+PO-14766,violation,SELF_APPROVAL,True,VENDOR_CREATE_PAY,The user who created the vendor also posted the payment.,True,0.5338141918182373,33
+PO-14890,violation,MISSING_APPROVAL,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.547631025314331,34
+PO-14887,violation,MISSING_APPROVAL,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5423183441162109,34
+PO-12881,normal,NONE,True,VENDOR_CREATE_PAY,The user who created the vendor also posted the payment.,True,0.5391454696655273,33
+PO-14738,violation,SELF_APPROVAL,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.4877443313598633,30
+PO-12947,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5462837219238281,34
+PO-14798,violation,VENDOR_CREATE_PAY,True,VENDOR_CREATE_PAY,The user who created the vendor also posted the payment.,True,0.5324933528900146,33
+PO-11339,normal,NONE,True,VENDOR_CREATE_PAY,The user who created the vendor also posted the payment.,True,0.5279073715209961,33
+PO-14471,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5425829887390137,34
+PO-14813,violation,VENDOR_CREATE_PAY,True,VENDOR_CREATE_PAY,The user who created the vendor also posted the payment.,True,0.5310425758361816,33
+PO-12864,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5580105781555176,34
+PO-14878,violation,MISSING_APPROVAL,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5373280048370361,34
+PO-14668,violation,SOD_CREATE_PAY,True,VENDOR_CREATE_PAY,The user who created the vendor also posted the payment.,True,0.5271642208099365,33
+PO-14620,violation,SOD_CREATE_PAY,True,VENDOR_CREATE_PAY,The user who created the vendor also posted the payment.,True,0.5407650470733643,33
+PO-14785,violation,VENDOR_CREATE_PAY,True,VENDOR_CREATE_PAY,The user who created the vendor also posted the payment.,True,0.5317907333374023,33
+PO-10296,normal,NONE,True,VENDOR_CREATE_PAY,The user who created the vendor must not post payments to that vendor.,True,0.5698468685150146,36
+PO-14645,violation,SOD_CREATE_PAY,True,VENDOR_CREATE_PAY,The user who created the vendor also posted the payment.,True,0.5398905277252197,33
+PO-14712,violation,SELF_APPROVAL,True,VENDOR_CREATE_PAY,The user who created the vendor must not post payments to that vendor.,True,0.5790209770202637,36
+PO-11611,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5536289215087891,34
+PO-14750,violation,SELF_APPROVAL,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.49264073371887207,30
+PO-13156,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5472383499145508,34

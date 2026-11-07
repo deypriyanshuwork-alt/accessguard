@@ -1,0 +1,76 @@
+po_number,true_label,true_type,pred_violation,pred_type,reason,valid_json,sec,out_tokens
+PO-14810,violation,VENDOR_CREATE_PAY,True,SELF_APPROVAL,"User U051 (PO_CREATOR|PO_APPROVER) created and approved the PO, violating SELF_APPROVAL policy.",True,3.991105794906616,52
+PO-10660,normal,NONE,True,SOD_CREATE_PAY,"User U047 who created the PO also posted the payment, violating SOD_CREATE_PAY rule.",True,0.68507981300354,48
+PO-14723,violation,SELF_APPROVAL,True,SOD_CREATE_PAY,"User U052 created and approved the PO, violating SOD_CREATE_PAY and SELF_APPROVAL policies.",True,0.696892261505127,49
+PO-13063,normal,NONE,True,SPLIT_BELOW_THRESHOLD,"User U048 (PAYMENT_PROCESSOR) who posted the payment is also a VENDOR_ADMIN, which is a conflicting role with the PO_CREATOR U005.",True,0.897817850112915,65
+PO-12409,normal,NONE,True,SOD_CREATE_PAY,"User U046 who created the PO also posted the payment, violating SOD_CREATE_PAY rule.",True,0.6864354610443115,48
+PO-14879,violation,MISSING_APPROVAL,True,SPLIT_BELOW_THRESHOLD,"Payment posted by U050, who also created the vendor, violates SPLIT_BELOW_THRESHOLD policy.",True,0.7030544281005859,50
+PO-12793,normal,NONE,True,SOD_CREATE_PAY,User U036 (Payment Processor) who posted the payment is the same as the user who created the PO (User U011). This violates SOD_CREATE_PAY rule.,True,0.891559362411499,65
+PO-14985,violation,SPLIT_BELOW_THRESHOLD,True,SOD_CREATE_PAY,User U040 (Payment Processor) who posted the payment is the same as the user who created the PO (User U003).,True,0.8071064949035645,58
+PO-14986,violation,SPLIT_BELOW_THRESHOLD,True,SOD_CREATE_PAY,"User U046 (Payment Processor) who posted the payment is also the creator of the PO, violating SOD_CREATE_PAY.",True,0.7630741596221924,54
+PO-14416,normal,NONE,True,SOD_CREATE_PAY,User U038 (Payment Processor) who posted the payment is the same as the user who created the PO (User U006). This violates SOD_CREATE_PAY rule.,True,0.8962271213531494,65
+PO-10959,normal,NONE,True,SOD_CREATE_PAY,"User U047 (PO_CREATOR) created and posted the payment, violating SOD_CREATE_PAY.",True,0.7057101726531982,49
+PO-12957,normal,NONE,True,VENDOR_CREATE_PAY,"User U048 who posted the payment is also a creator of the vendor, violating VENDOR_CREATE_PAY rule.",True,0.7350971698760986,51
+PO-14622,violation,SOD_CREATE_PAY,True,SOD_CREATE_PAY,"User U045 (PO_CREATOR|PAYMENT_PROCESSOR) created and posted the payment, violating SOD_CREATE_PAY.",True,0.770409345626831,54
+PO-11835,normal,NONE,True,SOD_CREATE_PAY,"User U047 who created the PO is also posting the payment, violating SOD_CREATE_PAY rule.",True,0.7118394374847412,49
+PO-14885,violation,MISSING_APPROVAL,True,SOD_CREATE_PAY,"User U045 (PO_CREATOR|PAYMENT_PROCESSOR) created and posted the payment, violating SOD_CREATE_PAY.",True,0.7683401107788086,54
+PO-12267,normal,NONE,True,SELF_APPROVAL,"User U051 (PO_CREATOR|PO_APPROVER) created and approved the PO, violating SELF_APPROVAL policy.",True,0.7490072250366211,52
+PO-14771,violation,SELF_APPROVAL,True,SOD_CREATE_PAY,"User U052 created and approved the PO, violating SOD_CREATE_PAY and SELF_APPROVAL policies.",True,0.7048459053039551,49
+PO-14066,normal,NONE,True,SOD_CREATE_PAY,"User U047 who posted the payment is also the creator of the PO, violating SOD_CREATE_PAY.",True,0.7153067588806152,50
+PO-10680,normal,NONE,True,VENDOR_CREATE_PAY,"User U050 (PAYMENT_PROCESSOR) who posted the payment is also a VENDOR_ADMIN, violating VENDOR_CREATE_PAY rule.",True,0.8009047508239746,56
+PO-12696,normal,NONE,True,SOD_CREATE_PAY,User U035 (Payment Processor) who posted the payment is the same as the user who created the PO (User U012). This violates SOD_CREATE_PAY rule.,True,0.9027283191680908,65
+PO-13285,normal,NONE,True,SELF_APPROVAL,"U052 (PO_CREATOR|PO_APPROVER) created and approved PO-13285, violating SELF_APPROVAL policy.",True,0.8242537975311279,56
+PO-10674,normal,NONE,True,SOD_CREATE_PAY,Payment posted by U037 (PO_CREATOR) violates SOD_CREATE_PAY policy.,True,0.6613118648529053,46
+PO-10495,normal,NONE,True,SOD_CREATE_PAY,User U037 (Payment Processor) who posted the payment is the same as the user who created the PO (User U010).,True,0.814929723739624,58
+PO-11804,normal,NONE,True,SOD_CREATE_PAY,User U036 (Payment Processor) who posted the payment is the same as the user who created the PO (User U005). This violates SOD_CREATE_PAY rule.,True,0.8989341259002686,65
+PO-11451,normal,NONE,True,SOD_CREATE_PAY,"User U046 (Payment Processor) who posted the payment is also the creator of the PO, violating SOD_CREATE_PAY.",True,0.7687587738037109,54
+PO-13159,normal,NONE,True,SOD_CREATE_PAY,"User U047 (Payment Processor) who posted the payment is also the creator of the PO, violating SOD_CREATE_PAY.",True,0.7779099941253662,54
+PO-14983,violation,SPLIT_BELOW_THRESHOLD,True,SOD_CREATE_PAY,"User U045 (Payment Processor) who posted the payment is also the creator of the PO, violating SOD_CREATE_PAY.",True,0.7732465267181396,54
+PO-11366,normal,NONE,True,SOD_CREATE_PAY,User U040 (Payment Processor) who posted the payment is the same as the user who created the PO (U002). This violates SOD_CREATE_PAY rule.,True,0.9245822429656982,64
+PO-14374,normal,NONE,True,SOD_CREATE_PAY,"User U046 (PO_CREATOR) created and Payment_PROCESSOR posted the payment, violating SOD_CREATE_PAY.",True,0.750037431716919,52
+PO-14842,violation,VENDOR_CREATE_PAY,True,SOD_CREATE_PAY,"User U048 (Payment Processor) posted the payment, which conflicts with the SOD_CREATE_PAY policy.",True,0.7377884387969971,50
+PO-10044,normal,NONE,True,SOD_CREATE_PAY,User U039 (Payment Processor) who posted the payment is the same as the user who created the PO (U007). This violates SOD_CREATE_PAY rule.,True,0.8907325267791748,64
+PO-14627,violation,SOD_CREATE_PAY,True,SOD_CREATE_PAY,"User U046 created and posted the payment, violating SOD_CREATE_PAY rule.",True,0.6638071537017822,45
+PO-13140,normal,NONE,True,SOD_CREATE_PAY,"User U046 who created the PO also posted the payment, violating SOD_CREATE_PAY rule.",True,0.7087323665618896,48
+PO-11969,normal,NONE,True,SOD_CREATE_PAY,"User U047 who created the PO also posted the payment, violating SOD_CREATE_PAY rule.",True,0.7239947319030762,48
+PO-10669,normal,NONE,True,SOD_CREATE_PAY,User U040 (Payment Processor) who posted the payment is the same as the user who created the PO (User U009). This violates SOD_CREATE_PAY rule.,True,0.915153980255127,65
+PO-12317,normal,NONE,True,SOD_CREATE_PAY,"User U047 who created the PO also posted the payment, violating SOD_CREATE_PAY rule.",True,0.6997926235198975,48
+PO-14876,violation,MISSING_APPROVAL,True,SOD_CREATE_PAY,"User U052 who created the PO is also posting the payment, violating SOD_CREATE_PAY rule.",True,0.694685697555542,49
+PO-14692,violation,SELF_APPROVAL,True,SOD_CREATE_PAY,"User U052 created and approved the PO, which is a violation of SOD_CREATE_PAY and SELF_APPROVAL policies.",True,0.7707383632659912,53
+PO-14788,violation,VENDOR_CREATE_PAY,True,SOD_CREATE_PAY,"User U049 (Payment Processor) posted the payment, which conflicts with the SOD_CREATE_PAY policy.",True,0.7298603057861328,50
+PO-14607,violation,SOD_CREATE_PAY,True,SOD_CREATE_PAY,"User U045 (PO_CREATOR|PAYMENT_PROCESSOR) created and posted the payment, violating SOD_CREATE_PAY.",True,0.7741646766662598,54
+PO-12886,normal,NONE,True,SELF_APPROVAL,"U052 (PO_CREATOR|PO_APPROVER) created and approved PO-12886, violating SELF_APPROVAL policy.",True,0.8067426681518555,56
+PO-12996,normal,NONE,True,SOD_CREATE_PAY,"User U051 (PO_CREATOR|PO_APPROVER) created and approved the PO, violating SOD_CREATE_PAY and SELF_APPROVAL policies.",True,0.8307995796203613,58
+PO-14676,violation,SOD_CREATE_PAY,True,SOD_CREATE_PAY,"User U046 created and posted the payment, violating SOD_CREATE_PAY rule.",True,0.667609691619873,45
+PO-10137,normal,NONE,True,SELF_APPROVAL,"User U051 (PO_CREATOR|PO_APPROVER) created and approved the PO, violating SELF_APPROVAL policy.",True,0.7450308799743652,52
+PO-10026,normal,NONE,True,SELF_APPROVAL,"User U052 (PO_CREATOR|PO_APPROVER) created and approved PO-10026, violating SELF_APPROVAL policy.",True,0.8240869045257568,57
+PO-14760,violation,SELF_APPROVAL,True,SOD_CREATE_PAY,"User U051 created and approved the PO, violating SOD_CREATE_PAY and SELF_APPROVAL policies.",True,0.7178881168365479,49
+PO-14847,violation,VENDOR_CREATE_PAY,True,SELF_APPROVAL,"User U051 (PO_CREATOR|PO_APPROVER) created and approved the PO, violating SELF_APPROVAL policy.",True,0.758075475692749,52
+PO-14984,violation,SPLIT_BELOW_THRESHOLD,True,SOD_CREATE_PAY,"User U052 (PO_CREATOR|PO_APPROVER) created and approved the PO, violating SOD_CREATE_PAY and SELF_APPROVAL policies.",True,0.8365287780761719,58
+PO-14895,violation,MISSING_APPROVAL,True,SOD_CREATE_PAY,"User U052 (PO_CREATOR|PO_APPROVER) created and approved the PO, violating SOD_CREATE_PAY and SELF_APPROVAL policies.",True,0.8086562156677246,58
+PO-13813,normal,NONE,True,SOD_CREATE_PAY,"User U035 (Payment Processor) posted the payment, which conflicts with the SOD_CREATE_PAY rule (User U010, who created the PO, must not post its payment).",True,0.9439849853515625,68
+PO-11064,normal,NONE,True,SELF_APPROVAL,"User U051 (PO_CREATOR|PO_APPROVER) created and approved PO-11064, violating SELF_APPROVAL policy.",True,0.8228590488433838,57
+PO-14873,violation,MISSING_APPROVAL,True,SPLIT_BELOW_THRESHOLD,Payment posted by U050 who also has roles that could potentially conflict with the PO creator U007 in terms of payment posting and vendor admin roles.,True,0.8552513122558594,61
+PO-14642,violation,SOD_CREATE_PAY,True,SOD_CREATE_PAY,"User U045 (PO_CREATOR|PAYMENT_PROCESSOR) created and posted the payment, violating SOD_CREATE_PAY.",True,0.7795891761779785,54
+PO-13016,normal,NONE,True,SOD_CREATE_PAY,"User U051 (PO_CREATOR|PO_APPROVER) created and approved the PO, violating SOD_CREATE_PAY and SELF_APPROVAL policies.",True,0.8404922485351562,58
+PO-14766,violation,SELF_APPROVAL,True,SOD_CREATE_PAY,"User U051 created and approved the PO, violating SOD_CREATE_PAY and SELF_APPROVAL policies.",True,0.7335386276245117,49
+PO-14890,violation,MISSING_APPROVAL,True,SOD_CREATE_PAY,"User U046 (Payment Processor) who posted the payment is also the creator of the PO, violating SOD_CREATE_PAY.",True,0.7754213809967041,54
+PO-14887,violation,MISSING_APPROVAL,True,SOD_CREATE_PAY,"Payment was posted by the user who created the PO, violating SOD_CREATE_PAY.",True,0.6414945125579834,44
+PO-12881,normal,NONE,True,SPLIT_BELOW_THRESHOLD,"User U049 (Payment Processor) who posted the payment is also a VENDOR_ADMIN, which is a conflicting role with the PO_CREATOR role of U052 who created the PO.",True,0.9794571399688721,69
+PO-14738,violation,SELF_APPROVAL,True,SOD_CREATE_PAY,"User U052 created and approved the PO, violating SOD_CREATE_PAY and SELF_APPROVAL policies.",True,0.7174398899078369,49
+PO-12947,normal,NONE,True,SOD_CREATE_PAY,User U039 (Payment Processor) who posted the payment is the same as the user who created the PO (User U003). This violates SOD_CREATE_PAY rule.,True,0.9205422401428223,65
+PO-14798,violation,VENDOR_CREATE_PAY,True,SOD_CREATE_PAY,"User U048 (Payment Processor) posted the payment, which conflicts with the SOD_CREATE_PAY policy.",True,0.7339975833892822,50
+PO-11339,normal,NONE,True,SOD_CREATE_PAY,"User U050 (VENDOR_ADMIN|PAYMENT_PROCESSOR) created and posted the payment, violating SOD_CREATE_PAY and VENDOR_CREATE_PAY policies.",True,0.8643441200256348,60
+PO-14471,normal,NONE,True,SOD_CREATE_PAY,"User U038 (Payment Processor) posted the payment, which conflicts with the SOD_CREATE_PAY rule as U009 (PO Creator) created the PO.",True,0.9709405899047852,62
+PO-14813,violation,VENDOR_CREATE_PAY,True,SOD_CREATE_PAY,"User U049 (Payment Processor) posted the payment, which conflicts with the SOD_CREATE_PAY policy.",True,0.7519240379333496,50
+PO-12864,normal,NONE,True,SOD_CREATE_PAY,User U035 (Payment Processor) who posted the payment is the same as the user who created the PO (User U003). This violates SOD_CREATE_PAY rule.,True,0.9241251945495605,65
+PO-14878,violation,MISSING_APPROVAL,True,SOD_CREATE_PAY,"User U039 (Payment Processor) created the PO (U002) and posted the payment, violating SOD_CREATE_PAY.",True,0.7925946712493896,56
+PO-14668,violation,SOD_CREATE_PAY,True,SOD_CREATE_PAY,"User U046 created and posted the payment, violating SOD_CREATE_PAY rule.",True,0.6714377403259277,45
+PO-14620,violation,SOD_CREATE_PAY,True,SOD_CREATE_PAY,"User U047 created and posted the payment, violating SOD_CREATE_PAY rule.",True,0.7106881141662598,45
+PO-14785,violation,VENDOR_CREATE_PAY,True,SOD_CREATE_PAY,"User U048 (Payment Processor) posted the payment, which conflicts with the SOD_CREATE_PAY policy.",True,0.8064501285552979,50
+PO-10296,normal,NONE,True,VENDOR_CREATE_PAY,"User U050 (PAYMENT_PROCESSOR) who posted the payment is also a VENDOR_ADMIN, which violates VENDOR_CREATE_PAY.",True,0.8007807731628418,56
+PO-14645,violation,SOD_CREATE_PAY,True,SOD_CREATE_PAY,"User U046 created and posted the payment, violating SOD_CREATE_PAY rule.",True,0.6729166507720947,45
+PO-14712,violation,SELF_APPROVAL,True,SOD_CREATE_PAY,"User U052 created and approved the PO, violating SOD_CREATE_PAY and SELF_APPROVAL policies.",True,0.7294480800628662,49
+PO-11611,normal,NONE,True,SOD_CREATE_PAY,"User U045 (Payment Processor) who posted the payment is also the creator of the PO, violating SOD_CREATE_PAY.",True,0.7832510471343994,54
+PO-14750,violation,SELF_APPROVAL,True,SOD_CREATE_PAY,"User U052 created and approved the PO, violating SOD_CREATE_PAY and SELF_APPROVAL policies.",True,0.7217020988464355,49
+PO-13156,normal,NONE,True,SOD_CREATE_PAY,"User U046 (PO_CREATOR|PAYMENT_PROCESSOR) posted the payment, which conflicts with the SOD_CREATE_PAY policy.",True,0.82924485206604,56

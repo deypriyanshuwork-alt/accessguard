@@ -1,0 +1,76 @@
+po_number,true_label,true_type,pred_violation,pred_type,reason,valid_json,sec,out_tokens
+PO-14810,violation,VENDOR_CREATE_PAY,True,SOD_CREATE_PAY,"Payment posted by U048, violating SOD_CREATE_PAY",True,0.767869234085083,39
+PO-10660,normal,NONE,True,SOD_CREATE_PAY,"Payment posted by U047, violating SOD_CREATE_PAY",True,0.5614347457885742,39
+PO-14723,violation,SELF_APPROVAL,False,NONE,,True,0.3962585926055908,24
+PO-13063,normal,NONE,True,SOD_CREATE_PAY,Payment posted by U048 without approval from U005,True,0.5487990379333496,38
+PO-12409,normal,NONE,False,SOD_CREATE_PAY,Payment posted by PO creator U007,True,0.5090072154998779,35
+PO-14879,violation,MISSING_APPROVAL,True,SOD_CREATE_PAY,Payment posted by U050 without approval from U048,True,0.5460669994354248,38
+PO-12793,normal,NONE,False,NONE,PO meets all policy rules,True,0.464414119720459,30
+PO-14985,violation,SPLIT_BELOW_THRESHOLD,False,NONE,PO meets all policy rules,True,0.4663519859313965,30
+PO-14986,violation,SPLIT_BELOW_THRESHOLD,True,SOD_CREATE_PAY,Payment posted by PO creator without approval,True,0.5121080875396729,35
+PO-14416,normal,NONE,True,MISSING_APPROVAL,Payment posted by U038 without approval from U014,True,0.54791259765625,38
+PO-10959,normal,NONE,False,NONE,PO meets all policy rules,True,0.4464750289916992,30
+PO-12957,normal,NONE,True,MISSING_APPROVAL,Payment posted by U048 without approval from U015,True,0.5462963581085205,38
+PO-14622,violation,SOD_CREATE_PAY,True,SOD_CREATE_PAY,Payment posted by the PO creator without approval,True,0.5198352336883545,36
+PO-11835,normal,NONE,False,NONE,PO meets all policy rules,True,0.46054959297180176,30
+PO-14885,violation,MISSING_APPROVAL,True,SOD_CREATE_PAY,Payment posted by PO_creator without approval,True,0.507530927658081,35
+PO-12267,normal,NONE,True,MISSING_APPROVAL,PO has been posted without approval,True,0.5010807514190674,34
+PO-14771,violation,SELF_APPROVAL,True,MISSING_APPROVAL,PO has been posted without approval,True,0.4991128444671631,34
+PO-14066,normal,NONE,True,SOD_CREATE_PAY,"Payment posted by U047, who is also a PO_creator, violating SOD_CREATE_PAY",True,0.6493642330169678,46
+PO-10680,normal,NONE,False,NONE,PO meets all policy rules,True,0.46649599075317383,30
+PO-12696,normal,NONE,False,MISSING_APPROVAL,PO has been posted without approval,True,0.49941110610961914,34
+PO-13285,normal,NONE,False,MISSING_APPROVAL,PO has been posted without approval,True,0.4923670291900635,34
+PO-10674,normal,NONE,False,NONE,PO meets all policy rules,True,0.4559354782104492,30
+PO-10495,normal,NONE,False,NONE,PO meets all policy rules,True,0.4622030258178711,30
+PO-11804,normal,NONE,False,NONE,PO meets all policy rules,True,0.45302820205688477,30
+PO-11451,normal,NONE,True,SOD_CREATE_PAY,"Payment posted by U046, violating SOD_CREATE_PAY",True,0.5577263832092285,39
+PO-13159,normal,NONE,False,SOD_CREATE_PAY,Payment posted by PO creator,True,0.4785444736480713,33
+PO-14983,violation,SPLIT_BELOW_THRESHOLD,True,SOD_CREATE_PAY,Payment posted by PO creator,True,0.47661375999450684,33
+PO-11366,normal,NONE,False,NONE,PO meets all policy rules,True,0.4597961902618408,30
+PO-14374,normal,NONE,False,MISSING_APPROVAL,PO has been posted without payment approval,True,0.5063278675079346,35
+PO-14842,violation,VENDOR_CREATE_PAY,True,VENDOR_CREATE_PAY,"Payment posted by U048, who is the vendor creator, violating VENDOR_CREATE_PAY",True,0.6283762454986572,45
+PO-10044,normal,NONE,False,NONE,PO meets all policy rules,True,0.45809006690979004,30
+PO-14627,violation,SOD_CREATE_PAY,False,SOD_CREATE_PAY,Payment posted by the PO creator without approval,True,0.5212769508361816,36
+PO-13140,normal,NONE,True,SOD_CREATE_PAY,Payment posted by PO creator without approval,True,0.5025789737701416,35
+PO-11969,normal,NONE,True,SOD_CREATE_PAY,"Payment posted by creator U046, violating SOD_CREATE_PAY",True,0.5693745613098145,40
+PO-10669,normal,NONE,False,NONE,PO meets all policy rules,True,0.45904541015625,30
+PO-12317,normal,NONE,False,SOD_CREATE_PAY,Payment posted by PO creator,True,0.4759547710418701,33
+PO-14876,violation,MISSING_APPROVAL,False,NONE,PO meets all policy rules,True,0.45265841484069824,30
+PO-14692,violation,SELF_APPROVAL,True,MISSING_APPROVAL,PO has been posted without approval,True,0.49245738983154297,34
+PO-14788,violation,VENDOR_CREATE_PAY,False,SOD_CREATE_PAY,"Payment posted by U049, who is the vendor creator, without approval from U013, the PO approver.",True,0.6872158050537109,50
+PO-14607,violation,SOD_CREATE_PAY,True,SOD_CREATE_PAY,Payment posted by the PO creator without approval,True,0.5183868408203125,36
+PO-12886,normal,NONE,False,MISSING_APPROVAL,PO has been posted without approval,True,0.4895458221435547,34
+PO-12996,normal,NONE,False,NONE,PO meets all policy rules,True,0.46005940437316895,30
+PO-14676,violation,SOD_CREATE_PAY,True,SOD_CREATE_PAY,Payment posted by the PO creator without approval,True,0.5210752487182617,36
+PO-10137,normal,NONE,False,NONE,PO meets all policy rules,True,0.4649546146392822,30
+PO-10026,normal,NONE,False,MISSING_APPROVAL,PO has been posted without approval,True,0.4954655170440674,34
+PO-14760,violation,SELF_APPROVAL,False,MISSING_APPROVAL,PO has been posted without approval,True,0.494415283203125,34
+PO-14847,violation,VENDOR_CREATE_PAY,True,SOD_CREATE_PAY,"Payment posted by U050, violating SOD_CREATE_PAY",True,0.5537230968475342,39
+PO-14984,violation,SPLIT_BELOW_THRESHOLD,False,NONE,PO meets all policy rules,True,0.4529433250427246,30
+PO-14895,violation,MISSING_APPROVAL,False,NONE,PO meets all policy rules,True,0.45764827728271484,30
+PO-13813,normal,NONE,False,NONE,PO meets all policy rules,True,0.45766329765319824,30
+PO-11064,normal,NONE,True,VENDOR_CREATE_PAY,PO payment posted by creator of vendor,True,0.500694990158081,35
+PO-14873,violation,MISSING_APPROVAL,True,MISSING_APPROVAL,Payment posted by U050 without approval of PO-14873,True,0.5620057582855225,40
+PO-14642,violation,SOD_CREATE_PAY,True,SOD_CREATE_PAY,Payment posted by the PO creator without approval,True,0.518902063369751,36
+PO-13016,normal,NONE,False,NONE,PO meets all policy rules,True,0.44353294372558594,30
+PO-14766,violation,SELF_APPROVAL,True,SOD_CREATE_PAY,"Payment posted by U050, violating SOD_CREATE_PAY",True,0.5892610549926758,39
+PO-14890,violation,MISSING_APPROVAL,True,SOD_CREATE_PAY,Payment posted by PO_creator without approval,True,0.5199844837188721,35
+PO-14887,violation,MISSING_APPROVAL,True,MISSING_APPROVAL,PO has been posted for payment without approval,True,0.548938512802124,36
+PO-12881,normal,NONE,True,SOD_CREATE_PAY,Payment posted by U049 without approval from U052,True,0.5471475124359131,38
+PO-14738,violation,SELF_APPROVAL,True,MISSING_APPROVAL,PO has been posted without approval,True,0.5038437843322754,34
+PO-12947,normal,NONE,False,NONE,PO meets all policy rules,True,0.4864809513092041,30
+PO-14798,violation,VENDOR_CREATE_PAY,True,SOD_CREATE_PAY,"Payment posted by U048, violating SOD_CREATE_PAY",True,0.5791380405426025,39
+PO-11339,normal,NONE,False,NONE,PO meets all policy rules,True,0.46289587020874023,30
+PO-14471,normal,NONE,False,NONE,PO meets all policy rules,True,0.46240878105163574,30
+PO-14813,violation,VENDOR_CREATE_PAY,True,VENDOR_CREATE_PAY,"Payment posted by U049, who is the vendor creator, without approval from U018.",True,0.6334102153778076,45
+PO-12864,normal,NONE,False,NONE,PO meets all policy rules,True,0.4573698043823242,30
+PO-14878,violation,MISSING_APPROVAL,False,NONE,PO meets all policy rules,True,0.452470064163208,30
+PO-14668,violation,SOD_CREATE_PAY,True,SOD_CREATE_PAY,Payment posted by the PO creator without approval,True,0.5209007263183594,36
+PO-14620,violation,SOD_CREATE_PAY,True,SOD_CREATE_PAY,Payment posted by the PO creator without approval,True,0.5290217399597168,36
+PO-14785,violation,VENDOR_CREATE_PAY,True,VENDOR_CREATE_PAY,"Payment posted by U048, who is the vendor creator, violating VENDOR_CREATE_PAY",True,0.6308434009552002,45
+PO-10296,normal,NONE,True,SOD_CREATE_PAY,Payment posted by U050 without approval from U004,True,0.5465469360351562,38
+PO-14645,violation,SOD_CREATE_PAY,True,SOD_CREATE_PAY,Payment posted by the PO creator without approval,True,0.5216143131256104,36
+PO-14712,violation,SELF_APPROVAL,True,MISSING_APPROVAL,PO has been posted without approval,True,0.4978055953979492,34
+PO-11611,normal,NONE,True,SOD_CREATE_PAY,"Payment posted by U045, violating SOD_CREATE_PAY",True,0.5571060180664062,39
+PO-14750,violation,SELF_APPROVAL,True,MISSING_APPROVAL,PO has been posted without approval,True,0.4978036880493164,34
+PO-13156,normal,NONE,True,SOD_CREATE_PAY,"Payment posted by U046, violating SOD_CREATE_PAY",True,0.5645573139190674,39

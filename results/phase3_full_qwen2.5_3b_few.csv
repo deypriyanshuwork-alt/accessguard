@@ -1,0 +1,499 @@
+po_number,true_label,true_type,pred_violation,pred_type,reason,valid_json,sec,out_tokens
+PO-10019,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,1.3771612644195557,30
+PO-10020,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5505719184875488,30
+PO-10021,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.587465763092041,33
+PO-10023,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5370686054229736,30
+PO-10026,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.6002318859100342,34
+PO-10044,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6043579578399658,35
+PO-10048,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5403492450714111,30
+PO-10067,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6379144191741943,33
+PO-10076,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6068310737609863,33
+PO-10079,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5469868183135986,30
+PO-10080,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.538994550704956,30
+PO-10084,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6451163291931152,33
+PO-10085,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5700457096099854,30
+PO-10086,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6016533374786377,33
+PO-10087,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6229948997497559,35
+PO-10128,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6044723987579346,33
+PO-10129,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5888805389404297,33
+PO-10137,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5564432144165039,31
+PO-10140,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5805497169494629,30
+PO-10145,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5933406352996826,33
+PO-10160,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5177440643310547,30
+PO-10176,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5302670001983643,30
+PO-10184,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6232075691223145,33
+PO-10190,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6394293308258057,33
+PO-10195,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.57688307762146,33
+PO-10201,normal,NONE,True,SELF_APPROVAL,The same user created the PO and approved it.,True,0.6157808303833008,31
+PO-10239,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6486060619354248,33
+PO-10266,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5986335277557373,33
+PO-10274,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6004481315612793,33
+PO-10275,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.6074094772338867,30
+PO-10289,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.6022348403930664,30
+PO-10296,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6022090911865234,33
+PO-10311,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.541618824005127,30
+PO-10324,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5365495681762695,30
+PO-10343,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5431931018829346,30
+PO-10345,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5396609306335449,30
+PO-10355,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.6001477241516113,31
+PO-10360,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6377091407775879,33
+PO-10365,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5975611209869385,33
+PO-10373,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.602301836013794,30
+PO-10381,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5420002937316895,30
+PO-10395,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5471439361572266,30
+PO-10407,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6153764724731445,33
+PO-10409,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5547173023223877,30
+PO-10413,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5615344047546387,30
+PO-10454,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5455975532531738,30
+PO-10471,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6071581840515137,33
+PO-10495,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5766208171844482,30
+PO-10497,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6360127925872803,33
+PO-10501,normal,NONE,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.6031324863433838,33
+PO-10505,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5654563903808594,30
+PO-10514,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5756785869598389,31
+PO-10556,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5900533199310303,33
+PO-10564,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.591907262802124,33
+PO-10570,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5846266746520996,33
+PO-10575,normal,NONE,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.5922698974609375,33
+PO-10601,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.6053104400634766,31
+PO-10625,normal,NONE,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.5861537456512451,33
+PO-10632,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5461869239807129,30
+PO-10635,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5869622230529785,33
+PO-10637,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5476639270782471,30
+PO-10644,normal,NONE,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.6650636196136475,33
+PO-10660,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5467450618743896,30
+PO-10661,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.628359317779541,35
+PO-10668,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5601866245269775,31
+PO-10669,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5530574321746826,30
+PO-10674,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6302468776702881,35
+PO-10680,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6136443614959717,33
+PO-10683,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6204493045806885,33
+PO-10693,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5555903911590576,30
+PO-10695,normal,NONE,False,NONE,"The PO was created and payment was posted by different users, and no rule is broken.",True,0.6684935092926025,37
+PO-10697,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6067650318145752,33
+PO-10698,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5987563133239746,33
+PO-10706,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.597916841506958,35
+PO-10741,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.582695484161377,30
+PO-10746,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5648548603057861,30
+PO-10753,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5778615474700928,30
+PO-10802,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5605258941650391,30
+PO-10809,normal,NONE,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.6173233985900879,33
+PO-10810,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6329312324523926,35
+PO-10827,normal,NONE,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.5998814105987549,33
+PO-10844,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6920187473297119,35
+PO-10845,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6212313175201416,35
+PO-10849,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5958898067474365,33
+PO-10865,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5626442432403564,30
+PO-10874,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5927245616912842,33
+PO-10884,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5893440246582031,33
+PO-10888,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5622739791870117,31
+PO-10919,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.594475507736206,33
+PO-10921,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5897138118743896,30
+PO-10948,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6171157360076904,35
+PO-10951,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5938422679901123,33
+PO-10959,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5904724597930908,33
+PO-10969,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.579226016998291,30
+PO-10970,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5995445251464844,33
+PO-10982,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5954205989837646,33
+PO-10985,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5768365859985352,31
+PO-10988,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5953354835510254,33
+PO-10996,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5619823932647705,30
+PO-11000,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5583791732788086,30
+PO-11046,normal,NONE,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.5941905975341797,33
+PO-11064,normal,NONE,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.5992918014526367,33
+PO-11065,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6500377655029297,33
+PO-11068,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5864372253417969,33
+PO-11070,normal,NONE,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.5947268009185791,33
+PO-11076,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5834000110626221,33
+PO-11077,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5989952087402344,30
+PO-11078,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5458683967590332,30
+PO-11086,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5317738056182861,30
+PO-11087,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5386762619018555,30
+PO-11088,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5960779190063477,33
+PO-11089,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5512673854827881,30
+PO-11113,normal,NONE,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.6088712215423584,33
+PO-11115,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.6100726127624512,34
+PO-11137,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5467324256896973,30
+PO-11140,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5519697666168213,30
+PO-11144,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5989463329315186,33
+PO-11145,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6249001026153564,35
+PO-11162,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6445839405059814,33
+PO-11170,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5958037376403809,33
+PO-11178,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.54929518699646,30
+PO-11194,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5370564460754395,30
+PO-11197,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6063556671142578,35
+PO-11242,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5520591735839844,30
+PO-11257,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5414371490478516,30
+PO-11269,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5488638877868652,30
+PO-11275,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5380301475524902,30
+PO-11298,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.551605224609375,30
+PO-11307,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.537818431854248,30
+PO-11317,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6096198558807373,33
+PO-11330,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5976173877716064,30
+PO-11332,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5721855163574219,30
+PO-11339,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted the payment.,True,0.6044416427612305,33
+PO-11340,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5697953701019287,31
+PO-11343,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6080000400543213,33
+PO-11348,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6115055084228516,33
+PO-11359,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.568828821182251,30
+PO-11362,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5397298336029053,30
+PO-11363,normal,NONE,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.589200496673584,33
+PO-11366,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5447921752929688,30
+PO-11422,normal,NONE,False,NONE,The PO does not violate any of the specified policies.,True,0.550065279006958,30
+PO-11427,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5582356452941895,30
+PO-11429,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6116559505462646,35
+PO-11444,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.541576623916626,30
+PO-11447,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5997905731201172,33
+PO-11448,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.596771240234375,33
+PO-11451,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5641443729400635,30
+PO-11487,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5586328506469727,30
+PO-11495,normal,NONE,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.6085562705993652,33
+PO-11498,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6036813259124756,33
+PO-11505,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6065843105316162,33
+PO-11517,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5935540199279785,33
+PO-11519,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.626622200012207,34
+PO-11523,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5750517845153809,30
+PO-11524,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.6557338237762451,30
+PO-11525,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, and invoice posting, and no rule is broken.",True,0.6780648231506348,39
+PO-11537,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5627071857452393,30
+PO-11551,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5979254245758057,33
+PO-11554,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5712785720825195,30
+PO-11561,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5982022285461426,33
+PO-11599,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5990641117095947,33
+PO-11609,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5698394775390625,31
+PO-11611,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5675435066223145,30
+PO-11618,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5603353977203369,31
+PO-11621,normal,NONE,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.6341345310211182,33
+PO-11627,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.611060619354248,33
+PO-11629,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6535851955413818,33
+PO-11643,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6968600749969482,33
+PO-11655,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6419405937194824,33
+PO-11666,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5715427398681641,30
+PO-11689,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6318726539611816,33
+PO-11711,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5892274379730225,31
+PO-11714,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5995879173278809,31
+PO-11726,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.566535472869873,30
+PO-11736,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6425344944000244,33
+PO-11745,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5717298984527588,31
+PO-11754,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6181118488311768,35
+PO-11763,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5402922630310059,30
+PO-11765,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.554955005645752,30
+PO-11771,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6298518180847168,33
+PO-11774,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6146523952484131,35
+PO-11790,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.543602466583252,30
+PO-11792,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6045417785644531,33
+PO-11795,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6294276714324951,35
+PO-11802,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5508966445922852,30
+PO-11804,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6310341358184814,35
+PO-11814,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5652971267700195,31
+PO-11835,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6612551212310791,33
+PO-11843,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5779061317443848,33
+PO-11855,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5392711162567139,30
+PO-11865,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5988895893096924,33
+PO-11874,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.594306468963623,33
+PO-11878,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5873289108276367,30
+PO-11895,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5406520366668701,30
+PO-11896,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5400218963623047,30
+PO-11921,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5818054676055908,30
+PO-11965,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5650358200073242,30
+PO-11969,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.594468355178833,33
+PO-11971,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted the payment.,True,0.5991213321685791,33
+PO-11977,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5745449066162109,31
+PO-11991,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5938141345977783,33
+PO-11999,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.81160569190979,33
+PO-12002,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.8113093376159668,31
+PO-12012,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.6061563491821289,30
+PO-12013,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5760698318481445,30
+PO-12045,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted the payment.,True,0.6075818538665771,33
+PO-12061,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5680797100067139,30
+PO-12071,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6163969039916992,33
+PO-12088,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.565122127532959,30
+PO-12104,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.606600284576416,33
+PO-12116,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6147258281707764,33
+PO-12118,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.626589298248291,35
+PO-12151,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6224465370178223,33
+PO-12162,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6344242095947266,35
+PO-12164,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5573956966400146,30
+PO-12173,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted the payment.,True,0.5956370830535889,33
+PO-12179,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.600182056427002,33
+PO-12181,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5941689014434814,33
+PO-12193,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6005451679229736,33
+PO-12204,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5784811973571777,33
+PO-12219,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.6089494228363037,34
+PO-12224,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5445261001586914,30
+PO-12242,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5470609664916992,30
+PO-12244,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5619840621948242,31
+PO-12267,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5496647357940674,30
+PO-12271,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5884864330291748,33
+PO-12276,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.6001462936401367,30
+PO-12277,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5918838977813721,33
+PO-12281,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5450375080108643,30
+PO-12297,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6231427192687988,35
+PO-12298,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5505523681640625,30
+PO-12299,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.597994327545166,33
+PO-12304,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.6144106388092041,34
+PO-12317,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5993058681488037,33
+PO-12331,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5924735069274902,33
+PO-12332,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6180760860443115,35
+PO-12333,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5469396114349365,30
+PO-12353,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5655622482299805,31
+PO-12371,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5702152252197266,31
+PO-12383,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5486888885498047,30
+PO-12385,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.5981020927429199,34
+PO-12402,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5655827522277832,31
+PO-12409,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6366128921508789,33
+PO-12427,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5371260643005371,30
+PO-12435,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.6120951175689697,34
+PO-12442,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5948083400726318,33
+PO-12445,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5931951999664307,33
+PO-12446,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5434491634368896,30
+PO-12454,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, and invoice posting, and no rule is broken.",True,0.6858782768249512,39
+PO-12455,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5556690692901611,30
+PO-12476,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5539445877075195,30
+PO-12494,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.596973180770874,33
+PO-12497,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5531492233276367,30
+PO-12499,normal,NONE,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.6019694805145264,33
+PO-12517,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5944302082061768,33
+PO-12518,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted the payment.,True,0.5986483097076416,33
+PO-12522,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.554563045501709,30
+PO-12531,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5880262851715088,33
+PO-12537,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5881524085998535,33
+PO-12578,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5960638523101807,33
+PO-12584,normal,NONE,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.5912814140319824,33
+PO-12586,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5469422340393066,30
+PO-12592,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5943763256072998,33
+PO-12600,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.564281702041626,31
+PO-12627,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5844850540161133,33
+PO-12630,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5386784076690674,30
+PO-12648,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6078133583068848,35
+PO-12651,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5673098564147949,31
+PO-12656,normal,NONE,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.598499059677124,33
+PO-12669,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5907597541809082,33
+PO-12677,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.613793134689331,35
+PO-12685,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6188294887542725,35
+PO-12696,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5369174480438232,30
+PO-12703,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6018378734588623,33
+PO-12713,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5958800315856934,33
+PO-12714,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.592477560043335,33
+PO-12731,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5875680446624756,33
+PO-12738,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6104836463928223,35
+PO-12741,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6130990982055664,33
+PO-12744,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5425662994384766,30
+PO-12745,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5911998748779297,33
+PO-12762,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5943999290466309,33
+PO-12764,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5439870357513428,30
+PO-12793,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5509884357452393,30
+PO-12801,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5702049732208252,31
+PO-12805,normal,NONE,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.5895462036132812,33
+PO-12862,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted the payment.,True,0.5928735733032227,33
+PO-12864,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6106650829315186,35
+PO-12876,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.6158127784729004,34
+PO-12881,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.6053040027618408,34
+PO-12886,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.558182954788208,31
+PO-12893,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5528895854949951,30
+PO-12896,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6179249286651611,35
+PO-12898,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.6077578067779541,34
+PO-12899,normal,NONE,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.5865087509155273,33
+PO-12920,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.563361406326294,31
+PO-12922,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5489208698272705,30
+PO-12934,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5871639251708984,33
+PO-12945,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.545799732208252,30
+PO-12947,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5437073707580566,30
+PO-12957,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.62837815284729,35
+PO-12958,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6106240749359131,35
+PO-12975,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5724389553070068,31
+PO-12991,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6156096458435059,35
+PO-12996,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5426526069641113,30
+PO-13004,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.576831579208374,31
+PO-13016,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5678584575653076,31
+PO-13023,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6201770305633545,35
+PO-13051,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.537590503692627,30
+PO-13059,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6009492874145508,33
+PO-13063,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6232891082763672,35
+PO-13066,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5872399806976318,33
+PO-13076,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5898294448852539,33
+PO-13087,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5892462730407715,33
+PO-13089,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5883388519287109,30
+PO-13102,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6626114845275879,35
+PO-13114,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, and invoice posting, and no rule is broken.",True,0.6729691028594971,39
+PO-13116,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5946099758148193,33
+PO-13121,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5631794929504395,31
+PO-13126,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5929412841796875,33
+PO-13134,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5924549102783203,30
+PO-13139,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6658966541290283,33
+PO-13140,normal,NONE,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.6002869606018066,33
+PO-13141,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5860815048217773,33
+PO-13156,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5642290115356445,31
+PO-13159,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5964581966400146,33
+PO-13166,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5927770137786865,33
+PO-13171,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5449326038360596,30
+PO-13172,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5515139102935791,30
+PO-13181,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5352377891540527,30
+PO-13183,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5870587825775146,33
+PO-13192,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5961251258850098,30
+PO-13208,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.550936222076416,30
+PO-13215,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5867042541503906,33
+PO-13228,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5647315979003906,31
+PO-13233,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6238889694213867,35
+PO-13235,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5461044311523438,30
+PO-13237,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.592867374420166,33
+PO-13242,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5683391094207764,31
+PO-13285,normal,NONE,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.5932037830352783,33
+PO-13295,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted the payment.,True,0.5975284576416016,33
+PO-13296,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5681650638580322,31
+PO-13339,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5985772609710693,33
+PO-13348,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.594862699508667,33
+PO-13372,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5653109550476074,31
+PO-13375,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5505049228668213,30
+PO-13379,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5960872173309326,33
+PO-13389,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.538644552230835,30
+PO-13398,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5927648544311523,33
+PO-13403,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5527420043945312,30
+PO-13416,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6099963188171387,33
+PO-13417,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6218130588531494,33
+PO-13433,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5909538269042969,33
+PO-13448,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted the payment.,True,0.5917723178863525,33
+PO-13464,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6779258251190186,33
+PO-13470,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5929789543151855,33
+PO-13472,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6131882667541504,35
+PO-13476,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5367414951324463,30
+PO-13490,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5427525043487549,30
+PO-13503,normal,NONE,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.5987193584442139,33
+PO-13506,normal,NONE,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.5989670753479004,33
+PO-13520,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5928685665130615,33
+PO-13538,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5939538478851318,33
+PO-13541,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.591754674911499,33
+PO-13543,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.567009687423706,31
+PO-13595,normal,NONE,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.6373515129089355,33
+PO-13603,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5828242301940918,30
+PO-13611,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5361814498901367,30
+PO-13657,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.634627103805542,31
+PO-13664,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6236529350280762,33
+PO-13669,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6088743209838867,33
+PO-13692,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6134724617004395,33
+PO-13700,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5422861576080322,30
+PO-13739,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5428180694580078,30
+PO-13748,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5396060943603516,30
+PO-13772,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.56101393699646,31
+PO-13779,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5936441421508789,33
+PO-13781,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.6486518383026123,34
+PO-13784,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6237103939056396,35
+PO-13785,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5526368618011475,30
+PO-13802,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.6072952747344971,34
+PO-13808,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6381525993347168,33
+PO-13812,normal,NONE,True,VENDOR_CREATE_PAY,The user who created the vendor also posted the payment.,True,0.6190965175628662,33
+PO-13813,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6084122657775879,35
+PO-13818,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5878198146820068,33
+PO-13835,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5950384140014648,33
+PO-13846,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.599707841873169,33
+PO-13852,normal,NONE,False,NONE,"The PO amount is above the INR 50,000 limit and thus does not trigger the SPLIT_BELOW_THRESHOLD rule.",True,0.8332664966583252,48
+PO-13858,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.6186313629150391,31
+PO-13876,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5973384380340576,33
+PO-13879,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5572104454040527,30
+PO-13898,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.577578067779541,30
+PO-13916,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, and invoice posting, and no rule is broken.",True,0.713118314743042,39
+PO-13918,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5473699569702148,30
+PO-13921,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5639345645904541,31
+PO-13929,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.538292646408081,30
+PO-13937,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.61903977394104,33
+PO-13943,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5988264083862305,33
+PO-13968,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5664546489715576,30
+PO-13970,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5489730834960938,30
+PO-13995,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5427591800689697,30
+PO-14001,normal,NONE,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.5897624492645264,33
+PO-14011,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6446144580841064,35
+PO-14015,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.591543436050415,33
+PO-14027,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5627293586730957,30
+PO-14038,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.6177940368652344,34
+PO-14044,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.6237666606903076,31
+PO-14061,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6047518253326416,33
+PO-14066,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5370776653289795,30
+PO-14067,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5511040687561035,30
+PO-14076,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5767629146575928,31
+PO-14094,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.592750072479248,33
+PO-14097,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6105213165283203,35
+PO-14107,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5634808540344238,31
+PO-14120,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5348148345947266,30
+PO-14125,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6258368492126465,33
+PO-14127,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5553927421569824,30
+PO-14135,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5337581634521484,30
+PO-14170,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5726208686828613,30
+PO-14172,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5898337364196777,33
+PO-14194,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5686812400817871,31
+PO-14197,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6210863590240479,35
+PO-14206,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6077859401702881,33
+PO-14224,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted the payment.,True,0.6014707088470459,33
+PO-14227,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5796513557434082,30
+PO-14229,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5779244899749756,30
+PO-14231,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5970499515533447,33
+PO-14238,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, and invoice posting, and no rule is broken.",True,0.6900875568389893,39
+PO-14263,normal,NONE,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.6043601036071777,33
+PO-14269,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5974173545837402,33
+PO-14313,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.5581433773040771,31
+PO-14320,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5308210849761963,30
+PO-14325,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6276578903198242,33
+PO-14326,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5800254344940186,33
+PO-14337,normal,NONE,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6603772640228271,35
+PO-14361,normal,NONE,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.5948410034179688,33
+PO-14371,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5865523815155029,33
+PO-14374,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5994131565093994,33
+PO-14378,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.6218061447143555,34
+PO-14387,normal,NONE,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.6039412021636963,33
+PO-14408,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.598055362701416,30
+PO-14416,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5996203422546387,30
+PO-14425,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.599236249923706,33
+PO-14448,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.605069637298584,33
+PO-14455,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5623569488525391,30
+PO-14459,normal,NONE,True,SELF_APPROVAL,The user who created the PO also approved it.,True,0.570310115814209,31
+PO-14471,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5337135791778564,30
+PO-14494,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5483222007751465,30
+PO-14513,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5446162223815918,30
+PO-14528,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.6026835441589355,34
+PO-14545,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5918929576873779,33
+PO-14548,normal,NONE,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5507481098175049,30
+PO-14556,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6343564987182617,33
+PO-14560,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6327362060546875,33
+PO-14570,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5914199352264404,33
+PO-14577,normal,NONE,False,NONE,"Different users handled creation, approval and payment, and no rule is broken.",True,0.621340274810791,34
+PO-14578,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5966372489929199,33
+PO-14583,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5493996143341064,30
+PO-14584,normal,NONE,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5502204895019531,30
+PO-14600,normal,NONE,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6643562316894531,33
+PO-14607,violation,SOD_CREATE_PAY,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6071739196777344,33
+PO-14620,violation,SOD_CREATE_PAY,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6000115871429443,33
+PO-14622,violation,SOD_CREATE_PAY,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6041746139526367,33
+PO-14627,violation,SOD_CREATE_PAY,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5989971160888672,33
+PO-14642,violation,SOD_CREATE_PAY,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5929763317108154,33
+PO-14645,violation,SOD_CREATE_PAY,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5920758247375488,33
+PO-14668,violation,SOD_CREATE_PAY,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5920546054840088,33
+PO-14676,violation,SOD_CREATE_PAY,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6156196594238281,33
+PO-14685,violation,SOD_CREATE_PAY,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.6116905212402344,33
+PO-14692,violation,SELF_APPROVAL,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5510265827178955,30
+PO-14712,violation,SELF_APPROVAL,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5474686622619629,30
+PO-14723,violation,SELF_APPROVAL,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5526096820831299,30
+PO-14738,violation,SELF_APPROVAL,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5900695323944092,30
+PO-14750,violation,SELF_APPROVAL,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5992710590362549,30
+PO-14760,violation,SELF_APPROVAL,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5637760162353516,30
+PO-14766,violation,SELF_APPROVAL,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5591928958892822,30
+PO-14771,violation,SELF_APPROVAL,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5702066421508789,30
+PO-14779,violation,SELF_APPROVAL,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.6097061634063721,30
+PO-14785,violation,VENDOR_CREATE_PAY,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.6065022945404053,33
+PO-14788,violation,VENDOR_CREATE_PAY,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.6031696796417236,33
+PO-14798,violation,VENDOR_CREATE_PAY,False,NONE,"Different users handled creation, approval, goods receipt, invoice posting, and payment.",True,0.6316494941711426,35
+PO-14810,violation,VENDOR_CREATE_PAY,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5488886833190918,30
+PO-14813,violation,VENDOR_CREATE_PAY,False,NONE,"Different users handled creation, approval, goods receipt, and invoice posting, and no rule is broken.",True,0.6829209327697754,39
+PO-14842,violation,VENDOR_CREATE_PAY,True,SOD_CREATE_PAY,The user who created the PO also posted the payment.,True,0.5939028263092041,33
+PO-14847,violation,VENDOR_CREATE_PAY,True,SELF_APPROVAL,The creator of the PO also approved it.,True,0.5470526218414307,30
+PO-14873,violation,MISSING_APPROVAL,False,NONE,"Different users handled creation, approval, goods receipt, and payment.",True,0.561887264251709,32
+PO-14876,violation,MISSING_APPROVAL,True,SOD_CREATE_PAY,"The PO was created and payment was posted by the same user, which is a violation of SOD_CREATE_PAY.",True,0.7451581954956055,45
+PO-14878,violation,MISSING_APPROVAL,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5279762744903564,30
+PO-14879,violation,MISSING_APPROVAL,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5885744094848633,33
+PO-14885,violation,MISSING_APPROVAL,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5906126499176025,33
+PO-14887,violation,MISSING_APPROVAL,False,NONE,"Different users handled creation, approval, goods receipt, and payment.",True,0.5688953399658203,32
+PO-14890,violation,MISSING_APPROVAL,True,SOD_CREATE_PAY,The same user created the PO and posted its payment.,True,0.5849142074584961,33
+PO-14895,violation,MISSING_APPROVAL,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5382347106933594,30
+PO-14915,violation,MISSING_APPROVAL,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5752248764038086,30
+PO-14983,violation,SPLIT_BELOW_THRESHOLD,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5542352199554443,30
+PO-14984,violation,SPLIT_BELOW_THRESHOLD,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5648646354675293,30
+PO-14985,violation,SPLIT_BELOW_THRESHOLD,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.5786740779876709,30
+PO-14986,violation,SPLIT_BELOW_THRESHOLD,True,MISSING_APPROVAL,There is no approval step before payment.,True,0.6044106483459473,30
