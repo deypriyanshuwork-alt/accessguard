@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# AccessGuard
 
 Anomaly detection and access control analysis pipeline with MCP server integration and local LLM reasoning via Ollama.
@@ -8,3 +9,6 @@ Anomaly detection and access control analysis pipeline with MCP server integrati
 - src/: Core feature engineering and ML anomaly detection modules
 - mcp_server/: Model Context Protocol server implementation
 - results/: Evaluation metrics, plots, and audit outputs
+=======
+# accessguard
+>>>>>>> 2f3ca35ee9158846caa48a0f7463c1144efffc6b
