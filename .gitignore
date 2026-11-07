@@ -1,0 +1,27 @@
+﻿# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data & Results (keep folder structure, ignore heavy generated files)
+data/*.csv
+data/*.parquet
+results/*.png
+results/*.json
+!data/.gitkeep
+!results/.gitkeep
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.env
