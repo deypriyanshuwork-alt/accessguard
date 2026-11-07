@@ -1,0 +1,4 @@
+model,avg_tokens_per_sec,load_sec,vram_mb,auto_pass_rate,avg_quality_1to5
+llama3.2:1b,124.57,2.88,1423,0.6,3.7
+llama3.2:3b,81.92,3.09,2568,0.8,4.2
+qwen2.5:3b,76.61,2.9,2156,0.8,4.3

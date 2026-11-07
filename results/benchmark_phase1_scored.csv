@@ -1,0 +1,131 @@
+model,id,category,prompt,response,score_1to5
+llama3.2:1b,P01,summarisation,"Summarise in 2 sentences: Purchase-to-pay is the process from ordering goods to paying the supplier. It includes creating a purchase order, approving it, receiving the goods, matching the invoice, and making payment. Weak controls at any step can allow fraud or errors.","Here is a 2-sentence summary:
+
+Purchase-to-pay is the process from ordering goods to paying the supplier, involving steps such as creating a purchase order, approving it, receiving the goods, matching the invoice, and making payment. Weak controls at any step can lead to fraud or errors, highlighting the importance of robust processes and procedures to ensure accurate and secure transactions.",4
+llama3.2:1b,P02,explanation,Explain segregation of duties to a new finance intern in 3 sentences.,"Segregation of duties is a security measure that involves dividing tasks and responsibilities across multiple individuals to prevent a single person from having too much control or influence over a particular process or decision. This helps to prevent a single point of failure or vulnerability, and ensures that if one person is compromised, the others can take over and maintain the integrity of the system. By separating duties, organizations can also reduce the risk of human error, minimize the impact of a security breach, and improve overall system reliability and resilience.",5
+llama3.2:1b,P03,math,What is 17 * 23? Answer with just the number.,391,5
+llama3.2:1b,P04,logic,"Rule: the person who creates a purchase order must never approve it. Anil created PO-7. Can Anil approve PO-7? Answer 'Yes' or 'No' first, then one sentence.","No, Anil cannot approve PO-7 because the person who creates a purchase order must never approve it.",5
+llama3.2:1b,P05,extraction_json,"Extract a JSON object with keys name, amount, date from: 'Priya Sen approved invoice INV-204 for INR 48,500 on 3 March 2026.'","{
+
+    ""name"": ""Priya Sen"",
+    ""amount"": 48500,
+    ""date"": ""3 March 2026"" 
+
+}",4
+llama3.2:1b,P06,classify_violation,You are an ERP auditor. Reply in JSON with keys violation (true/false) and reason. Events: PO-1001 created by user U12 on 2 Mar; PO-1001 approved by user U40 on 3 Mar; PO-1001 payment posted by user U12 on 5 Mar. Is there an access-control violation?,"{
+  ""events"": [
+    {
+      ""key"": ""PO-1001"",
+      ""created_by"": {
+        ""user_id"": 12,
+        ""role_id"": 1,  ""is_active"": true
+      },
+      ""created_on"": ""2023-03-02T00:00:00.000Z"",
+      ""updated_by"": {
+        ""user_id"": 12,
+        ""role_id"": 1,  ""is_active"": true
+      },
+      ""updated_on"": ""2023-03-02T00:00:00.000Z"",
+      ""status"": {
+        ""is_active"": true,
+        ""is_approved"": true,
+        ""is_paid"": true
+      },
+      ""created_on"": ""2023-03-02T00:00:00.000Z""
+    },
+    {
+      ""key"": ""PO-1001"",
+      ""approved_by"": {
+        ""user_id"": 40,
+        ""role_id"": 1,  ""is_active"": true
+      },
+      ""approved_on"": ""2023-03-03T00:00:00.000Z"",
+      ""status"": {
+        ""is_active"": true,
+        ""is_approved"": true,
+        ""is_paid"": true
+      },
+      ""created_on"": ""2023-03-02T00:00:00.000Z""
+    },
+    {
+      ""key"": """,1
+llama3.2:1b,P07,classify_normal,You are an ERP auditor. Reply in JSON with keys violation (true/false) and reason. Events: PO-1002 created by user U15 on 2 Mar; PO-1002 approved by user U40 on 3 Mar; PO-1002 payment posted by user U22 on 5 Mar. Is there an access-control violation?,"{
+  ""events"": [
+    {
+      ""key"": ""PO-1002"",
+      ""created_by"": {
+        ""user_id"": 15,
+        ""role"": ""U15""
+      },
+      ""created_on"": ""2023-03-02T00:00:00Z"",
+      ""approved_by"": {
+        ""user_id"": 40,
+        ""role"": ""U40""
+      },
+      ""approved_on"": ""2023-03-03T00:00:00Z"",
+      ""payment_posted_by"": {
+        ""user_id"": 22,
+        ""role"": ""U22""
+      },
+      ""payment_posted_on"": ""2023-03-05T00:00:00Z""
+    }
+  ],
+  ""access_control_violation"": false,
+  ""reason"": ""No access-control violation found.""
+}",3
+llama3.2:1b,P08,instruction_following,List exactly three risks of giving one employee both vendor-creation and payment rights. Use a numbered list and no other text.,"1. Conflicts of interest
+2. Increased administrative burden
+3. Potential for misclassification of employees",3
+llama3.2:1b,P09,reasoning,"A clerk keeps every payment just under the INR 50,000 approval limit, making 6 payments of INR 49,000 to the same vendor in one week. Why might this be suspicious? Answer in 3 sentences.","This behavior might be suspicious because it indicates that the clerk is not accurately tracking the payments, as they are making 6 payments of INR 49,000, which is below the approved limit of INR 50,000. This could be a sign of an error in the payment processing system or a deliberate attempt to circumvent the approval limit. Additionally, making multiple payments in a short period may raise red flags about the clerk's ability to accurately manage the payments.",3
+llama3.2:1b,P10,rewrite,"Rewrite this to sound professional: 'hey, ur payment got flagged cuz the same guy made the PO and paid it, pls check.'","Here's a rewritten version of the message that sounds more professional:
+
+""Dear [Recipient],
+
+I am writing to inform you that your payment has been flagged due to a discrepancy in the payment process. It appears that the same individual who submitted the Purchase Order (PO) has also made the payment, which may be a result of a duplicate or unauthorized transaction.
+
+I would appreciate it if you could review the payment details and investigate the matter to determine the cause of the flag. Please let me know if you require any further assistance or clarification.
+
+Best regards,
+[Your Name]""",4
+llama3.2:3b,P01,summarisation,"Summarise in 2 sentences: Purchase-to-pay is the process from ordering goods to paying the supplier. It includes creating a purchase order, approving it, receiving the goods, matching the invoice, and making payment. Weak controls at any step can allow fraud or errors.","Here is a 2-sentence summary:
+
+Purchase-to-pay is the process of ordering goods, receiving them, and paying the supplier, involving steps such as creating a purchase order, approving it, and making payment. Weak controls at any stage of this process can lead to fraud or errors, highlighting the importance of implementing robust controls to ensure accuracy and security.",4
+llama3.2:3b,P02,explanation,Explain segregation of duties to a new finance intern in 3 sentences.,"As a finance intern, it's essential to understand the concept of segregation of duties, which means dividing tasks and responsibilities among team members to prevent any one person from having too much control over a process or system. This helps to prevent errors, mismanagement, and potential financial misappropriation, ensuring that financial transactions are accurate, secure, and transparent. By separating duties, you'll be contributing to a more robust and reliable financial system, and helping to maintain the trust and confidence of stakeholders.",5
+llama3.2:3b,P03,math,What is 17 * 23? Answer with just the number.,391,5
+llama3.2:3b,P04,logic,"Rule: the person who creates a purchase order must never approve it. Anil created PO-7. Can Anil approve PO-7? Answer 'Yes' or 'No' first, then one sentence.","No.
+
+Anil cannot approve PO-7 because he is the one who created it, according to the rule.",5
+llama3.2:3b,P05,extraction_json,"Extract a JSON object with keys name, amount, date from: 'Priya Sen approved invoice INV-204 for INR 48,500 on 3 March 2026.'","{""name"": ""Priya Sen"", ""amount"": ""INR 48,500"", ""date"": ""3 March 2026""}",5
+llama3.2:3b,P06,classify_violation,You are an ERP auditor. Reply in JSON with keys violation (true/false) and reason. Events: PO-1001 created by user U12 on 2 Mar; PO-1001 approved by user U40 on 3 Mar; PO-1001 payment posted by user U12 on 5 Mar. Is there an access-control violation?,"{""violation"": false, ""reason"": ""The access control process for PO-1001 appears to be in order. User U12 created the PO, user U40 approved it, and user U12 posted the payment. This sequence of events suggests that the access controls are functioning as intended, with each user having the necessary permissions to perform their respective actions.""}",2
+llama3.2:3b,P07,classify_normal,You are an ERP auditor. Reply in JSON with keys violation (true/false) and reason. Events: PO-1002 created by user U15 on 2 Mar; PO-1002 approved by user U40 on 3 Mar; PO-1002 payment posted by user U22 on 5 Mar. Is there an access-control violation?,"{""violation"": false, ""reason"": ""The access control process for PO-1002 appears to be in order. User U15 created the PO, user U40 approved it, and user U22 posted the payment. The sequence of events suggests that each user has the necessary permissions to perform their respective actions.""}",5
+llama3.2:3b,P08,instruction_following,List exactly three risks of giving one employee both vendor-creation and payment rights. Use a numbered list and no other text.,"1. Increased risk of vendor favoritism and unfair treatment of other employees
+2. Potential for vendor exploitation and abuse of power
+3. Difficulty in establishing clear boundaries and expectations for the vendor relationship",3
+llama3.2:3b,P09,reasoning,"A clerk keeps every payment just under the INR 50,000 approval limit, making 6 payments of INR 49,000 to the same vendor in one week. Why might this be suspicious? Answer in 3 sentences.","The clerk's practice of making payments just under the INR 50,000 approval limit may be suspicious because it could be an attempt to circumvent the approval limit and avoid detection. By making multiple small payments, the clerk may be trying to avoid triggering the approval limit, which could be a regulatory requirement to ensure transparency and accountability. This behavior could be indicative of an attempt to launder money or evade financial regulations.",5
+llama3.2:3b,P10,rewrite,"Rewrite this to sound professional: 'hey, ur payment got flagged cuz the same guy made the PO and paid it, pls check.'","Here's a rewritten version of the message:
+
+""Hello, we've flagged your payment for review due to a potential duplicate payment issue. It appears that the same individual is both the payor and the person authorized to make the payment (as indicated by the PO). Could you please verify the payment and confirm that it was intended to be made? We appreciate your prompt attention to this matter.""
+
+This revised message is more professional and clear in its communication, while still conveying the necessary information to the recipient.",3
+qwen2.5:3b,P01,summarisation,"Summarise in 2 sentences: Purchase-to-pay is the process from ordering goods to paying the supplier. It includes creating a purchase order, approving it, receiving the goods, matching the invoice, and making payment. Weak controls at any step can allow fraud or errors.","Purchase-to-pay is the comprehensive process of ordering goods, approving purchase orders, receiving the goods, matching invoices, and making payments. Weak controls at any stage can facilitate fraud or errors, highlighting the importance of robust oversight throughout this process.",5
+qwen2.5:3b,P02,explanation,Explain segregation of duties to a new finance intern in 3 sentences.,"Segregation of duties is a principle in internal controls that aims to prevent any single individual from having control over a complete transaction or process. This means that no one person should be responsible for more than one step in a transaction to prevent any one individual from having the opportunity to manipulate or misappropriate assets. By dividing responsibilities among different individuals, the risk of errors or fraud is significantly reduced.",5
+qwen2.5:3b,P03,math,What is 17 * 23? Answer with just the number.,391,5
+qwen2.5:3b,P04,logic,"Rule: the person who creates a purchase order must never approve it. Anil created PO-7. Can Anil approve PO-7? Answer 'Yes' or 'No' first, then one sentence.","No, Anil cannot approve PO-7. Since the rule states that the person who creates a purchase order must never approve it, Anil, who created PO-7, cannot approve it.",4
+qwen2.5:3b,P05,extraction_json,"Extract a JSON object with keys name, amount, date from: 'Priya Sen approved invoice INV-204 for INR 48,500 on 3 March 2026.'","{
+  ""name"": ""Priya Sen"",
+  ""amount"": ""INR 48,500"",
+  ""date"": ""3 March 2026""
+}",5
+qwen2.5:3b,P06,classify_violation,You are an ERP auditor. Reply in JSON with keys violation (true/false) and reason. Events: PO-1001 created by user U12 on 2 Mar; PO-1001 approved by user U40 on 3 Mar; PO-1001 payment posted by user U12 on 5 Mar. Is there an access-control violation?,"{
+  ""violation"": false,
+  ""reason"": ""The sequence of events does not indicate any violation of access control. User U12 created the Purchase Order (PO-1001) and posted the payment, which is consistent with their roles and responsibilities in an ERP system. User U40 approved the PO, which is also within their role. There is no indication of unauthorized access or misuse of permissions.""
+}",2
+qwen2.5:3b,P07,classify_normal,You are an ERP auditor. Reply in JSON with keys violation (true/false) and reason. Events: PO-1002 created by user U15 on 2 Mar; PO-1002 approved by user U40 on 3 Mar; PO-1002 payment posted by user U22 on 5 Mar. Is there an access-control violation?,"{
+  ""violation"": false,
+  ""reason"": ""There is no information provided that suggests any access-control violations. The events described follow a typical workflow where users have their respective roles and permissions to create, approve, and post payments for purchase orders. No unauthorized access or misuse of roles is indicated in the provided events.""
+}",5
+qwen2.5:3b,P08,instruction_following,List exactly three risks of giving one employee both vendor-creation and payment rights. Use a numbered list and no other text.,"1. Conflict of Interest: This setup can lead to unethical behavior where the employee might favor certain vendors or inflate expenses for personal gain.
+2. Mismanagement of Funds: Without proper oversight, the employee could misuse the funds, leading to financial losses for the company or misappropriation of resources.
+3. Inefficiency and Delay: The employee might not manage vendor relationships efficiently, causing delays in project timelines or service delivery, which can harm the company's reputation and performance.",4
+qwen2.5:3b,P09,reasoning,"A clerk keeps every payment just under the INR 50,000 approval limit, making 6 payments of INR 49,000 to the same vendor in one week. Why might this be suspicious? Answer in 3 sentences.","This behavior might be suspicious because it exceeds the INR 50,000 approval limit, which could indicate a potential attempt to circumvent payment approval processes. Frequent payments of just under the limit could also suggest a pattern of avoiding clear, larger transactions that might raise more suspicion. It could also be a red flag for money laundering or other financial irregularities, as it appears to be a systematic attempt to avoid detection.",4
+qwen2.5:3b,P10,rewrite,"Rewrite this to sound professional: 'hey, ur payment got flagged cuz the same guy made the PO and paid it, pls check.'","""Attention: Your payment has been flagged due to the same individual who issued the purchase order and made the payment. Please review and verify.""",4
