@@ -1,0 +1,499 @@
+po_number,true_label,true_type,pred_violation,pred_type,reason,valid_json,sec
+PO-10019,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U036 to vendor V035 is made by the same user who created the vendor record, U048.",True,0.8512804508209229
+PO-10020,normal,NONE,False,NONE,"The PO amount is below the limit, but the split pattern rule is not triggered because there are not 3+ other POs by the same creator to the same vendor within 7 days.",True,1.0195395946502686
+PO-10021,normal,NONE,False,NONE,PO-10021 does not meet the split payment threshold,True,0.6300704479217529
+PO-10023,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U035 to vendor V036 is made by the same user who created the vendor record, U049.",True,0.8725018501281738
+PO-10026,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U039 to vendor V017 is below the limit and the creator and payer are the same user.,True,0.9133491516113281
+PO-10044,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U039 to vendor V025 is below the limit of INR 50,000 and the creator U039 is the same user as the vendor creator U044.",True,1.0611259937286377
+PO-10048,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U035 to vendor V007 is made by the same user who created the vendor record, U048.",True,0.8810436725616455
+PO-10067,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U048 to vendor V023 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9811108112335205
+PO-10076,normal,NONE,False,SPLIT_BELOW_THRESHOLD,PO-10076 has a payment amount above the limit and does not meet the split pattern criteria.,True,0.8791728019714355
+PO-10079,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U039 to vendor V037 is below the limit and the creator and payer are the same user.,True,0.9170291423797607
+PO-10080,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U035 to vendor V017 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,1.1236340999603271
+PO-10084,normal,NONE,False,NONE,"PO-10084 has a payment amount of INR 37,100, which is below the INR 50,000 limit, but does not meet the SOD SPLIT_BELOW_THRESHOLD rule due to the lack of other POs by the same creator to the same vendor within 7 days.",True,1.4247698783874512
+PO-10085,normal,NONE,False,NONE,"PO-10085 has a payment amount above the split threshold of INR 50,000.",True,0.8193135261535645
+PO-10086,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U038 to vendor V028 is below the limit and the creator and payer are the same user.,True,0.9008545875549316
+PO-10087,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U039 to vendor V036 is below the limit and the creator and payer are the same user.,True,0.9246499538421631
+PO-10128,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the same user who created the vendor record is not allowed under rule R3 VENDOR_CREATE_PAY.,True,0.871821403503418
+PO-10129,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-10129 has a payment amount above the 10% threshold below the INR 50,000 limit.",True,0.9626023769378662
+PO-10137,normal,NONE,False,NONE,PO-10137 does not meet the split payment threshold,True,0.6608273983001709
+PO-10140,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U048 to vendor V019 is within 10% below the INR 50,000 limit and does not meet the split pattern criteria.",True,1.0219755172729492
+PO-10145,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U039 to vendor V020 is below the threshold limit of INR 50,000.",True,0.8766305446624756
+PO-10160,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U039 to vendor V017 is below the limit and the creator and payer are the same user.,True,0.8432302474975586
+PO-10176,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U039 to vendor V036 is made by the same user who created the vendor record, U049.",True,0.8713829517364502
+PO-10184,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential violation of the VENDOR_CREATE_PAY rule.,True,0.850653886795044
+PO-10190,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-10190 has a payment amount within 10% below the INR 50,000 limit and has 3 other POs by the same creator to the same vendor within 7 days.",True,1.1181292533874512
+PO-10195,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U050 to vendor V018 is within 10% below the INR 50,000 limit and there are three other POs by the same creator to the same vendor within 7 days.",True,1.166968584060669
+PO-10201,normal,NONE,False,NONE,"PO-10201 has a payment amount of INR 31,440, which is below the INR 50,000 limit, but does not meet the SPLIT_BELOW_THRESHOLD rule due to the lack of other POs by the same creator to the same vendor within 7 days.",True,1.4130239486694336
+PO-10239,normal,NONE,False,NONE,PO-10239 does not meet the split payment threshold,True,0.6851551532745361
+PO-10266,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential violation of the SOD CREATE_PAY rule.,True,0.8772051334381104
+PO-10274,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential SOD violation.,True,0.8049969673156738
+PO-10275,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U045 to vendor V029 is below the threshold limit of INR 50,000.",True,0.8733136653900146
+PO-10289,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U048 to vendor V033 is made by the same user who created the vendor record, violating policy R3.",True,0.9136810302734375
+PO-10296,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U050 to vendor V005 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9461109638214111
+PO-10311,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U038 to vendor V023 is below the limit and the creator and payer are the same user, U050.",True,0.8922653198242188
+PO-10324,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U038 exceeds the limit of INR 50,000.",True,0.8370084762573242
+PO-10343,normal,NONE,True,SPLIT_BELOW_THRESHOLD,PO-10343 violates the SPLIT_BELOW_THRESHOLD policy because it has three or more other POs by the same creator to the same vendor within 7 days and the amount is within 10 percent below the limit.,True,1.1689016819000244
+PO-10345,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-10345 has a payment amount below the threshold limit of INR 50,000, but does not meet the split pattern criteria.",True,0.94950270652771
+PO-10355,normal,NONE,False,NONE,PO-10355 does not meet the split payment threshold,True,0.6962723731994629
+PO-10360,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U048 to vendor V037 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9744007587432861
+PO-10365,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-10365 has a payment amount below the split threshold of INR 50,000, but does not meet the SOD threshold of 3 other POs by the same creator to the same vendor within 7 days.",True,1.232619285583496
+PO-10373,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U038 to vendor V039 is below the threshold limit of INR 50,000.",True,0.8750343322753906
+PO-10381,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U037 to vendor V014 is made by the same user who created the vendor record, U049.",True,0.9454154968261719
+PO-10395,normal,NONE,False,NONE,"PO-10395 has a payment amount of INR 31,720, which is below the INR 50,000 limit, but does not meet the SPLIT_BELOW_THRESHOLD rule due to the lack of other POs by the same creator to the same vendor within 7 days.",True,1.3681390285491943
+PO-10407,normal,NONE,False,NONE,"The PO amount is below the limit, but the split pattern rule is not triggered because there are not enough other POs by the same creator to the same vendor within 7 days.",True,1.0055515766143799
+PO-10409,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U036 to vendor V033 is below the limit and the creator and payer are the same user.,True,0.9136765003204346
+PO-10413,normal,NONE,False,NONE,PO-10413 does not meet the split payment threshold,True,0.6408727169036865
+PO-10454,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U038 to vendor V022 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9657807350158691
+PO-10471,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential violation of the VENDOR_CREATE_PAY rule.,True,0.9052176475524902
+PO-10495,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U037 to vendor V021 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,0.9829380512237549
+PO-10497,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U048 to vendor V040 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9923274517059326
+PO-10501,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U049 to vendor V013 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,1.0295624732971191
+PO-10505,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U050 to vendor V020 is below the threshold limit of INR 50,000.",True,0.859656572341919
+PO-10514,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U049 to vendor V011 is below the threshold limit of INR 50,000.",True,0.8870053291320801
+PO-10556,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential violation of the VENDOR_CREATE_PAY rule.,True,0.8529887199401855
+PO-10564,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U050 to vendor V005 is within 10% below the INR 50,000 limit and there are three other POs by the same creator to the same vendor within 7 days.",True,1.1778786182403564
+PO-10570,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U049 to vendor V007 is within 10% below the INR 50,000 limit and there are three other POs by the same creator to the same vendor within 7 days.",True,1.1985859870910645
+PO-10575,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U050 to vendor V026 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,0.9456949234008789
+PO-10601,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U040 for PO PO-10601 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,0.9724998474121094
+PO-10625,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U050 to vendor V006 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,1.0508036613464355
+PO-10632,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-10632 has a payment amount of INR 145,670, which is above the INR 50,000 limit, but does not meet the SPLIT_BELOW_THRESHOLD criteria.",True,1.1253008842468262
+PO-10635,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U036 to vendor V010 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9769444465637207
+PO-10637,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U039 to vendor V020 is below the limit and the creator and payer are the same user.,True,0.873307466506958
+PO-10644,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the same user who created the vendor record is not allowed under rule R3 VENDOR_CREATE_PAY.,True,0.8760895729064941
+PO-10660,normal,NONE,True,SPLIT_BELOW_THRESHOLD,"The payment posted by U047 to vendor V028 is within 10% below the INR 50,000 limit and there are three other POs by the same creator to the same vendor within 7 days.",True,1.161440372467041
+PO-10661,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U035 to vendor V005 is made by the same user who created the vendor record, U049.",True,0.923931360244751
+PO-10668,normal,NONE,False,NONE,PO-10668 does not meet the split payment threshold,True,0.645068883895874
+PO-10669,normal,NONE,False,NONE,"The PO amount is below the limit, but the split pattern rule is not triggered because there are not three or more other POs by the same creator to the same vendor within 7 days.",True,1.0219652652740479
+PO-10674,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U037 to vendor V001 is below the limit of INR 50,000 and the creator U037 is the same user as the vendor creator U049.",True,1.1115548610687256
+PO-10680,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U050 to vendor V013 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9644472599029541
+PO-10683,normal,NONE,False,NONE,Automated checks failed to identify a potential SOD violation,True,0.7137949466705322
+PO-10693,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U038 to vendor V039 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,1.0130620002746582
+PO-10695,normal,NONE,True,SPLIT_BELOW_THRESHOLD,PO-10695 violates the SPLIT_BELOW_THRESHOLD policy because it has three or more other POs by the same creator to the same vendor within 7 days and the amount is within 10 percent below the limit.,True,1.223520040512085
+PO-10697,normal,NONE,False,NONE,PO-10697 violates the SPLIT_BELOW_THRESHOLD policy because the payment amount is below the limit but the PO creator and payer are the same user.,True,0.9577460289001465
+PO-10698,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U037 to vendor V012 is made by the same user who created the vendor record, U048.",True,0.8867833614349365
+PO-10706,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U037 to vendor V010 is below the limit of INR 50,000 and the creator and payer are the same user U041.",True,0.9733049869537354
+PO-10741,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U035 to vendor V037 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,1.0253119468688965
+PO-10746,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U037 to vendor V020 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,0.9761173725128174
+PO-10753,normal,NONE,False,NONE,"The PO amount is below the limit, but the split pattern rule is not triggered because there are not three or more other POs by the same creator to the same vendor within 7 days.",True,1.0418097972869873
+PO-10802,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U038 to vendor V032 is below the threshold limit of INR 50,000.",True,0.8490040302276611
+PO-10809,normal,NONE,False,SPLIT_BELOW_THRESHOLD,The payment posted by the PO creator to the vendor is within 10% below the limit and no other POs by the same creator to the same vendor within 7 days are found.,True,1.095686674118042
+PO-10810,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U049 to vendor V012 is within 10% below the INR 50,000 limit and there are three other POs by the same creator to the same vendor within 7 days.",True,1.1880707740783691
+PO-10827,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential SOD violation.,True,0.7996788024902344
+PO-10844,normal,NONE,False,VENDOR_CREATE_PAY,PO-10844 has a payment to vendor V026 created by the same user who created the vendor record.,True,0.9143824577331543
+PO-10845,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U038 to vendor V018 is below the limit of INR 50,000 and the creator U043 is the same user as the vendor creator.",True,1.039374828338623
+PO-10849,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U047 to vendor V011 is below the threshold limit of INR 50,000.",True,0.8450930118560791
+PO-10865,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U050 to vendor V024 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,0.9523041248321533
+PO-10874,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential SOD violation.,True,0.8372790813446045
+PO-10884,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U048 to vendor V006 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9515132904052734
+PO-10888,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U040 to vendor V022 is below the threshold limit of INR 50,000.",True,0.8486530780792236
+PO-10919,normal,NONE,False,NONE,"PO-10919 has a payment amount above the split threshold of INR 50,000.",True,0.7524442672729492
+PO-10921,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U038 to vendor V005 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,1.0646955966949463
+PO-10948,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U040 to vendor V012 is within 10% below the INR 50,000 limit and there are three other POs by the same creator to the same vendor within 7 days.",True,1.3205130100250244
+PO-10951,normal,NONE,False,NONE,PO-10951 is a legitimate purchase order with no apparent SOD policy violations.,True,0.8891472816467285
+PO-10959,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U037 to vendor V034 is below the threshold limit of INR 50,000.",True,0.9664444923400879
+PO-10969,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U037 to vendor V036 is made by the same user who created the vendor record, U049.",True,0.8651719093322754
+PO-10970,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U035 to vendor V026 is below the limit and the creator and payer are the same user.,True,0.8104667663574219
+PO-10982,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U037 to vendor V001 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,1.0227899551391602
+PO-10985,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U040 to vendor V013 is below the threshold limit of INR 50,000.",True,0.8649210929870605
+PO-10988,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U039 to vendor V028 is made by the same user who created the vendor record, U050.",True,0.9280304908752441
+PO-10996,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-10996 has a payment amount below the threshold limit of INR 50,000, but does not meet the split pattern criteria.",True,0.9922165870666504
+PO-11000,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U035 to vendor V035 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,1.0845582485198975
+PO-11046,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U040 to vendor V040 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,1.0898432731628418
+PO-11064,normal,NONE,False,NONE,PO-11064 does not meet the split payment threshold,True,0.7008607387542725
+PO-11065,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U046 to vendor V025 is below the threshold limit of INR 50,000.",True,0.9656875133514404
+PO-11068,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-11068 has a payment amount below the split threshold of INR 50,000, but not below the 10% threshold, and does not meet the split pattern criteria.",True,1.2067372798919678
+PO-11070,normal,NONE,False,NONE,"PO-11070 has a payment posted by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,0.8780455589294434
+PO-11076,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential violation of the VENDOR_CREATE_PAY rule.,True,0.8658881187438965
+PO-11077,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U049 to vendor V021 is below the threshold limit of INR 50,000.",True,0.8666379451751709
+PO-11078,normal,NONE,False,NONE,"PO-11078 has a payment posted by the vendor creator U042, violating rule R3 VENDOR_CREATE_PAY.",True,0.8664803504943848
+PO-11086,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U037 to vendor V021 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9697408676147461
+PO-11087,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U038 to vendor V003 is within 10% below the INR 50,000 limit and there are three other POs by the same creator to the same vendor within 7 days.",True,1.1990761756896973
+PO-11088,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U036 to vendor V016 is below the limit and the creator and payer are the same user.,True,0.9044637680053711
+PO-11089,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U036 to vendor V007 is made by the same user who created the vendor record, U048.",True,0.9181413650512695
+PO-11113,normal,NONE,False,NONE,PO-11113 is a legitimate purchase order with proper approvals and no evidence of vendor creator and payer being the same user.,True,0.8927910327911377
+PO-11115,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U049 to vendor V024 is within 10% below the INR 50,000 limit and has no other POs by the same creator to the same vendor within 7 days.",True,1.2213590145111084
+PO-11137,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U040 for PO PO-11137 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,1.0375137329101562
+PO-11140,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U040 to vendor V003 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9667079448699951
+PO-11144,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U048 to vendor V039 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.962970495223999
+PO-11145,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U035 to vendor V018 is below the INR 50,000 limit and the creator and payer are the same user.",True,0.9520280361175537
+PO-11162,normal,NONE,False,VENDOR_CREATE_PAY,The PO was created by the same user who posted the payment to the vendor.,True,0.804612398147583
+PO-11170,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential violation of the VENDOR_CREATE_PAY rule.,True,0.8608460426330566
+PO-11178,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-11178 has a payment amount below the 10% threshold below the INR 50,000 limit, but does not meet the SOD threshold of 3 other POs by the same creator to the same vendor within 7 days.",True,1.3609044551849365
+PO-11194,normal,NONE,False,SPLIT_BELOW_THRESHOLD,The payment posted by U038 to vendor V005 created by U049 is below the limit and has a split pattern that could indicate a violation of the SOD SPLIT_BELOW_THRESHOLD policy.,True,1.1295361518859863
+PO-11197,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U035 to vendor V032 is made by the same user who created the vendor record, U048.",True,0.8922207355499268
+PO-11242,normal,NONE,False,NONE,PO-11242 does not meet the split payment threshold,True,0.6656253337860107
+PO-11257,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U037 to vendor V031 is below the limit and the creator and payer are the same user.,True,0.8940718173980713
+PO-11269,normal,NONE,False,NONE,"The PO amount is below the limit, but the split pattern rule is not triggered because there are not enough other POs by the same creator to the same vendor within 7 days.",True,1.0318706035614014
+PO-11275,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by U035 to vendor V035 is made by the same user who created the vendor record.,True,0.8367719650268555
+PO-11298,normal,NONE,False,NONE,"PO-11298 has a payment amount of INR 15,930, which is below the INR 50,000 limit, but does not meet the SOD SPLIT_BELOW_THRESHOLD rule due to the lack of other POs by the same creator to the same vendor within 7 days.",True,1.4165802001953125
+PO-11307,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U039 to vendor V020 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,1.0047430992126465
+PO-11317,normal,NONE,False,NONE,"PO-11317 has a payment amount of INR 28,800, which is below the INR 50,000 limit, but does not meet the SOD SPLIT_BELOW_THRESHOLD criteria.",True,1.0969865322113037
+PO-11330,normal,NONE,False,SOD_CREATE_PAY,"The PO amount is above the limit and the creator and payer are the same user, violating the SOD_CREATE_PAY rule.",True,0.9410531520843506
+PO-11332,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-11332 has a payment amount above the 10% threshold below the INR 50,000 limit.",True,0.9087390899658203
+PO-11339,normal,NONE,False,NONE,"The PO amount is just below the limit, but not enough to trigger the SPLIT_BELOW_THRESHOLD rule.",True,0.817141056060791
+PO-11340,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U035 to vendor V026 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,0.9911501407623291
+PO-11343,normal,NONE,False,NONE,PO-11343 is flagged for SPLIT_BELOW_THRESHOLD due to the vendor creator and payer being the same user.,True,0.8463020324707031
+PO-11348,normal,NONE,False,NONE,PO-11348 is a legitimate purchase order with proper approvals and no evidence of vendor creator and payer being the same user.,True,0.8839337825775146
+PO-11359,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U039 exceeds the limit of INR 50,000.",True,0.7841324806213379
+PO-11362,normal,NONE,False,VENDOR_CREATE_PAY,The PO was created by the vendor creator and the payment was posted by the same user.,True,0.7842481136322021
+PO-11363,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential violation of the VENDOR_CREATE_PAY rule.,True,0.8633310794830322
+PO-11366,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U040 to vendor V037 is within 10% below the INR 50,000 limit and there are three other POs by the same creator to the same vendor within 7 days.",True,1.247147560119629
+PO-11422,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U050 to vendor V005 created by U049 is below the limit and has a split pattern that meets the threshold.,True,0.9131383895874023
+PO-11427,normal,NONE,False,NONE,PO does not meet the split payment threshold,True,0.6050584316253662
+PO-11429,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U035 to vendor V038 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.999971866607666
+PO-11444,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U038 to vendor V015 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9942474365234375
+PO-11447,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U046 to vendor V038 is below the threshold limit of INR 50,000.",True,0.8706419467926025
+PO-11448,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential violation of the VENDOR_CREATE_PAY rule.,True,0.8913164138793945
+PO-11451,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U046 to vendor V008 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,0.9892153739929199
+PO-11487,normal,NONE,False,NONE,"PO-11487 has a payment amount above the split threshold of INR 50,000.",True,0.7641606330871582
+PO-11495,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential SOD violation.,True,0.8018126487731934
+PO-11498,normal,NONE,False,NONE,"PO-11498 has a payment posted by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,0.8734951019287109
+PO-11505,normal,NONE,False,VENDOR_CREATE_PAY,"The PO creator (U003) posted a payment to the vendor (V008) they created, violating the segregation-of-duties policy.",True,0.9557764530181885
+PO-11517,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U036 to vendor V038 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,1.0123944282531738
+PO-11519,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U036 to vendor V006 is below the limit and the creator and payer are the same user.,True,0.9228830337524414
+PO-11523,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U035 to vendor V021 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,1.005070447921753
+PO-11524,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U045 to vendor V020 is below the threshold limit of INR 50,000.",True,0.8953797817230225
+PO-11525,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U049 to vendor V023 is within 10% below the INR 50,000 limit and there are three other POs by the same creator to the same vendor within 7 days.",True,1.2134509086608887
+PO-11537,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U050 to vendor V012 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,1.007676601409912
+PO-11551,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential violation of the VENDOR_CREATE_PAY rule.,True,0.9169511795043945
+PO-11554,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U048 to vendor V017 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,1.0002574920654297
+PO-11561,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U048 to vendor V006 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9935398101806641
+PO-11599,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U037 to vendor V021 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,0.9630355834960938
+PO-11609,normal,NONE,False,NONE,PO-11609 does not meet the split payment threshold,True,0.6952030658721924
+PO-11611,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U045 to vendor V012 is below the threshold limit of INR 50,000.",True,0.8654553890228271
+PO-11618,normal,NONE,True,SPLIT_BELOW_THRESHOLD,"PO-11618 has a payment amount of INR 12,200, which is below the INR 50,000 limit, and there are three other POs by the same creator to the same vendor within 7 days.",True,1.2377097606658936
+PO-11621,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U049 to vendor V035 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,0.982079029083252
+PO-11627,normal,NONE,False,VENDOR_CREATE_PAY,PO-11627 has a payment to vendor V029 created by the same user who created the vendor record.,True,0.8675546646118164
+PO-11629,normal,NONE,False,SPLIT_BELOW_THRESHOLD,The payment posted by the PO creator exceeds the limit by 10%.,True,0.8083953857421875
+PO-11643,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential violation of the VENDOR_CREATE_PAY rule.,True,0.9004065990447998
+PO-11655,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential violation of the VENDOR_CREATE_PAY rule.,True,0.9156160354614258
+PO-11666,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U039 to vendor V038 is below the limit and the creator and payer are the same user.,True,0.8854091167449951
+PO-11689,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U047 to vendor V021 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9635872840881348
+PO-11711,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U035 exceeds the limit of INR 50,000.",True,0.7820408344268799
+PO-11714,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U036 to vendor V022 is below the threshold limit of INR 50,000.",True,0.8690817356109619
+PO-11726,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U038 to vendor V001 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9704678058624268
+PO-11736,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U038 to vendor V028 is below the threshold limit of INR 50,000.",True,0.873150110244751
+PO-11745,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U045 to vendor V037 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9983110427856445
+PO-11754,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U039 to vendor V018 is made by the same user who created the vendor record, U043.",True,0.9089682102203369
+PO-11763,normal,NONE,False,NONE,"The PO amount is below the limit, but the split pattern rule is not triggered because there are not three or more other POs by the same creator to the same vendor within 7 days.",True,1.0781826972961426
+PO-11765,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U047 to vendor V032 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,1.0061814785003662
+PO-11771,normal,NONE,False,NONE,"The PO amount is below the limit, but the split pattern rule is not triggered because there are only two other POs by the same creator to the same vendor within 7 days.",True,1.0445802211761475
+PO-11774,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U036 to vendor V040 is below the limit and the creator and payer are the same user.,True,0.8721082210540771
+PO-11790,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by the same user who created the vendor record is not allowed under rule R3 VENDOR_CREATE_PAY.,True,0.871957540512085
+PO-11792,normal,NONE,False,NONE,PO does not meet the threshold for splitting payments,True,0.6238524913787842
+PO-11795,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U048 to vendor V006 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9801416397094727
+PO-11802,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U040 for PO PO-11802 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,1.0595581531524658
+PO-11804,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U036 to vendor V038 is below the limit and the creator and payer are the same user.,True,0.8796522617340088
+PO-11814,normal,NONE,False,VENDOR_CREATE_PAY,"PO-11814 has a payment amount of INR 76,540, which is above the INR 50,000 limit, and the creator and payer are the same user, U048.",True,1.2266857624053955
+PO-11835,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-11835 has a payment amount within 10% below the INR 50,000 limit and has 3 other POs by the same creator to the same vendor within 7 days, but the split pattern is not present.",True,1.2792015075683594
+PO-11843,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U036 to vendor V003 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9977445602416992
+PO-11855,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U036 to vendor V014 is below the limit and the creator and payer are the same user, U049.",True,0.9358887672424316
+PO-11865,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-11865 has a payment amount below the split threshold of INR 50,000, but does not meet the split pattern requirement of 3+ other POs by the same creator to the same vendor within 7 days.",True,1.2596125602722168
+PO-11874,normal,NONE,False,VENDOR_CREATE_PAY,"The PO creator (U012) posted a payment to the vendor (V019) they created, violating the segregation-of-duties policy.",True,1.0093350410461426
+PO-11878,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U035 to vendor V032 is made by the same user who created the vendor record, U048.",True,0.8875312805175781
+PO-11895,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U037 to vendor V025 is made by the same user who created the vendor record, U044.",True,0.8919551372528076
+PO-11896,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U035 to vendor V020 is below the limit and the creator and payer are the same user.,True,0.9450688362121582
+PO-11921,normal,NONE,False,NONE,"PO-11921 has a payment amount of INR 12,330, which is below the INR 50,000 limit, but does not meet the SOD SPLIT_BELOW_THRESHOLD rule due to the lack of other POs by the same creator to the same vendor within 7 days.",True,1.3892674446105957
+PO-11965,normal,NONE,False,NONE,PO does not meet the threshold for splitting payments,True,0.6825428009033203
+PO-11969,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the same user who created the vendor record is not allowed under rule R3 VENDOR_CREATE_PAY.,True,0.8951230049133301
+PO-11971,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-11971 has a payment amount within 10% below the INR 50,000 limit and has 3 other POs by the same creator to the same vendor within 7 days.",True,1.1645839214324951
+PO-11977,normal,NONE,False,NONE,"PO amount is just below the limit, but not enough POs by the same creator to the same vendor within 7 days to trigger SPLIT_BELOW_THRESHOLD",True,0.981766939163208
+PO-11991,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U036 to vendor V006 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9810166358947754
+PO-11999,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U048 to vendor V040 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,1.014327049255371
+PO-12002,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-12002 has a payment amount of INR 173,970, which is above the INR 50,000 limit, but does not meet the SPLIT_BELOW_THRESHOLD criteria.",True,1.1372153759002686
+PO-12012,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-12012 has a payment amount of INR 290,650, which is above the INR 50,000 limit, but does not meet the SPLIT_BELOW_THRESHOLD criteria.",True,1.1603455543518066
+PO-12013,normal,NONE,False,NONE,"PO-12013 has a payment amount of INR 6,950, which is below the INR 50,000 limit, but does not meet the SPLIT_BELOW_THRESHOLD rule due to the lack of other POs by the same creator to the same vendor within 7 days.",True,1.3894085884094238
+PO-12045,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U050 to vendor V008 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,1.0673332214355469
+PO-12061,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U039 to vendor V013 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,1.0063786506652832
+PO-12071,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U045 to vendor V016 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,1.0099616050720215
+PO-12088,normal,NONE,True,SPLIT_BELOW_THRESHOLD,PO-12088 has a split payment pattern with 3 other POs by the same creator to the same vendor within 7 days and the amount is within 10% below the limit.,True,1.1766371726989746
+PO-12104,normal,NONE,True,SPLIT_BELOW_THRESHOLD,PO-12104 violates the SPLIT_BELOW_THRESHOLD policy because it has three other POs by the same creator to the same vendor within 7 days and the amount is within 10% below the limit.,True,1.1831896305084229
+PO-12116,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U045 to vendor V028 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,1.036806344985962
+PO-12118,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U040 to vendor V015 is made by the same user who created the vendor record, U049.",True,0.8805811405181885
+PO-12151,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U049 to vendor V004 is within 10% below the INR 50,000 limit and no other POs by the same creator to the same vendor within 7 days exist.",True,1.240110158920288
+PO-12162,normal,NONE,False,NONE,PO-12162 does not meet the split payment threshold,True,0.6520366668701172
+PO-12164,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U048 to vendor V016 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,1.0145893096923828
+PO-12173,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U050 to vendor V007 is within 10% below the INR 50,000 limit and there are three other POs by the same creator to the same vendor within 7 days.",True,1.230964183807373
+PO-12179,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential SOD violation.,True,0.8311512470245361
+PO-12181,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by the PO creator to the vendor is within 10% below the INR 50,000 limit and there are three other POs by the same creator to the same vendor within 7 days.",True,1.22825288772583
+PO-12193,normal,NONE,False,VENDOR_CREATE_PAY,"The PO creator (U004) posted a payment to the vendor (V035) they created, violating the segregation-of-duties policy.",True,0.9811966419219971
+PO-12204,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U037 to vendor V007 is below the limit and the creator and payer are the same user, U048.",True,0.9305717945098877
+PO-12219,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-12219 has a payment amount below the 10% threshold below the INR 50,000 limit, but does not meet the SOD threshold of 3 other POs by the same creator to the same vendor within 7 days.",True,1.284395456314087
+PO-12224,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U040 to vendor V007 is made by the same user who created the vendor record, U048.",True,0.9396719932556152
+PO-12242,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U050 to vendor V036 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,0.9774515628814697
+PO-12244,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-12244 has a payment amount below the threshold limit of INR 50,000, but does not meet the split pattern criteria.",True,0.953040599822998
+PO-12267,normal,NONE,False,NONE,PO-12267 does not meet the split payment threshold,True,0.7053470611572266
+PO-12271,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U047 to vendor V038 is below the threshold limit of INR 50,000.",True,0.9005701541900635
+PO-12276,normal,NONE,False,NONE,"The PO amount is below the limit, but the split pattern rule is not triggered because there are not 3+ other POs by the same creator to the same vendor within 7 days.",True,1.0818240642547607
+PO-12277,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential SOD violation.,True,0.8191554546356201
+PO-12281,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U035 to vendor V012 is below the threshold limit of INR 50,000.",True,0.8961327075958252
+PO-12297,normal,NONE,False,NONE,PO-12297 does not meet the split payment threshold,True,0.6706099510192871
+PO-12298,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-12298 has a payment amount below the threshold limit of INR 50,000, but does not meet the split pattern criteria.",True,0.9673810005187988
+PO-12299,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U049 to vendor V009 is below the threshold limit of INR 50,000.",True,0.8698482513427734
+PO-12304,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U036 to vendor V034 is below the threshold limit of INR 50,000.",True,0.9406805038452148
+PO-12317,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential SOD violation.,True,0.8165938854217529
+PO-12331,normal,NONE,False,NONE,PO does not meet the split payment threshold,True,0.6227161884307861
+PO-12332,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U040 for PO PO-12332 is made by the same user who created the vendor record for vendor V013.,True,0.9242410659790039
+PO-12333,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U036 for PO PO-12333 is made by the same user who created the vendor record V029.,True,0.9157400131225586
+PO-12353,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U047 to vendor V029 is below the limit and the creator and payer are the same user.,True,0.910322904586792
+PO-12371,normal,NONE,False,NONE,PO does not meet the threshold for splitting payments,True,0.6471140384674072
+PO-12383,normal,NONE,False,NONE,"PO-12383 has a payment amount of INR 12,740, which is below the INR 50,000 limit, but does not meet the SOD SPLIT_BELOW_THRESHOLD criteria.",True,1.1301519870758057
+PO-12385,normal,NONE,False,NONE,PO does not meet the threshold for splitting payments,True,0.6365671157836914
+PO-12402,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-12402 has a payment amount below the threshold limit of INR 50,000, but does not meet the split pattern criteria.",True,0.9906148910522461
+PO-12409,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by the PO creator to the vendor is within 10% below the INR 50,000 limit and there are three other POs by the same creator to the same vendor within 7 days.",True,1.1775741577148438
+PO-12427,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U040 to vendor V005 is made by the same user who created the vendor record, U049.",True,0.9407901763916016
+PO-12435,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U039 to vendor V017 is below the threshold limit of INR 50,000.",True,0.8623147010803223
+PO-12442,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by the PO creator exceeds the limit and the vendor creator and payer are the same user.,True,0.9004948139190674
+PO-12445,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U047 to vendor V029 is made by the same user who created the vendor record, violating policy R3.",True,0.9121074676513672
+PO-12446,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U037 to vendor V030 is below the limit and the creator and payer are the same user, U048.",True,0.9296631813049316
+PO-12454,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U048 to vendor V037 is within 10% below the INR 50,000 limit and there are three other POs by the same creator to the same vendor within 7 days.",True,1.2126893997192383
+PO-12455,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-12455 has a payment amount of INR 49,800, which is within 10% below the INR 50,000 limit, and there are three other POs by the same creator to the same vendor within 7 days.",True,1.3350183963775635
+PO-12476,normal,NONE,False,NONE,PO does not meet the threshold for splitting payments,True,0.7018957138061523
+PO-12494,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-12494 has a payment amount within 10% below the INR 50,000 limit and has 3 other POs by the same creator to the same vendor within 7 days, but the split pattern is not met.",True,1.2899165153503418
+PO-12497,normal,NONE,False,NONE,PO-12497 does not meet the split payment threshold,True,0.6578946113586426
+PO-12499,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential SOD violation.,True,0.7961053848266602
+PO-12517,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U035 to vendor V031 is below the limit and the creator and payer are the same user.,True,0.9409968852996826
+PO-12518,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-12518 has a payment amount of INR 21,880, which is below the INR 50,000 limit, but does not meet the SPLIT_BELOW_THRESHOLD rule due to the lack of three or more other POs by the same creator to the same vendor within 7 days.",True,1.4565234184265137
+PO-12522,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U048 to vendor V033 is within 10% below the INR 50,000 limit and the creator and payer are the same user.",True,1.1420540809631348
+PO-12531,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by the PO creator to the vendor is within the 10% limit below the INR 50,000 threshold.",True,0.946800708770752
+PO-12537,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U046 to vendor V012 is within 10% below the INR 50,000 limit and there are three other POs by the same creator to the same vendor within 7 days.",True,1.21067476272583
+PO-12578,normal,NONE,False,NONE,The payment posted by the PO creator to the vendor they created is a potential violation of the SOD_CREATE_PAY policy.,True,0.8486413955688477
+PO-12584,normal,NONE,False,NONE,"PO-12584 has a payment amount of INR 18,980, which is below the INR 50,000 limit, but does not meet the SPLIT_BELOW_THRESHOLD rule due to the lack of other POs by the same creator to the same vendor within 7 days.",True,1.463341236114502
+PO-12586,normal,NONE,False,NONE,PO does not meet the threshold for splitting payments,True,0.6848797798156738
+PO-12592,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U036 to vendor V037 is below the limit of INR 50,000, but the split pattern rule does not apply since there are only two other POs by the same creator to the same vendor within 7 days.",True,1.322373390197754
+PO-12600,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-12600 has a payment amount below the threshold limit of INR 50,000, but does not meet the split pattern criteria.",True,1.0160906314849854
+PO-12627,normal,NONE,False,NONE,The payment posted by the PO creator to the vendor they created is a potential violation of the SOD CREATE_PAY policy.,True,0.8299760818481445
+PO-12630,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U038 to vendor V017 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,1.0456879138946533
+PO-12648,normal,NONE,False,SOD_CREATE_PAY,"The PO amount is above the limit and the creator and payer are the same user, violating the SOD_CREATE_PAY rule.",True,0.8820972442626953
+PO-12651,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U035 to vendor V013 is below the limit and the creator and payer are the same user.,True,0.9677934646606445
+PO-12656,normal,NONE,False,NONE,"PO-12656 has a payment amount above the 10% threshold below the limit of INR 50,000.",True,0.8532540798187256
+PO-12669,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U049 to vendor V028 is within 10% below the INR 50,000 limit and does not meet the split pattern criteria.",True,1.1742832660675049
+PO-12677,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U036 to vendor V035 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,1.2232275009155273
+PO-12685,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U035 to vendor V032 is below the limit and the creator and payer are the same user.,True,0.9736030101776123
+PO-12696,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U035 to vendor V031 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,0.9277536869049072
+PO-12703,normal,NONE,False,NONE,PO-12703 does not meet the split payment threshold rule R5 SPLIT_BELOW_THRESHOLD,True,0.7703113555908203
+PO-12713,normal,NONE,True,SPLIT_BELOW_THRESHOLD,"The payment posted by U036 to vendor V016 is within 10% below the INR 50,000 limit and there are three other POs by the same creator to the same vendor within 7 days.",True,1.2208759784698486
+PO-12714,normal,NONE,True,SPLIT_BELOW_THRESHOLD,The payment posted by the PO creator to the vendor is within 10% below the limit and there are three other POs by the same creator to the same vendor within 7 days.,True,1.1385114192962646
+PO-12731,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U050 to vendor V001 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,0.9899783134460449
+PO-12738,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U038 to vendor V030 is below the limit of INR 50,000 by 10%.",True,0.9909262657165527
+PO-12741,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U050 to vendor V002 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,1.1093356609344482
+PO-12744,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U036 to vendor V025 is made by the same user who created the vendor record, U044.",True,0.9738626480102539
+PO-12745,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U048 to vendor V026 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,1.0455200672149658
+PO-12762,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U048 to vendor V024 is within 10% below the INR 50,000 limit and there are three other POs by the same creator to the same vendor within 7 days.",True,1.2790913581848145
+PO-12764,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U036 to vendor V030 is below the limit and the creator and payer are the same user.,True,0.8756201267242432
+PO-12793,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U036 to vendor V034 is made by the same user who created the vendor record, U048.",True,0.9336471557617188
+PO-12801,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U045 to vendor V001 is below the threshold limit of INR 50,000.",True,0.8753187656402588
+PO-12805,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential violation of the VENDOR_CREATE_PAY rule.,True,0.9402730464935303
+PO-12862,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U050 to vendor V036 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9653902053833008
+PO-12864,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U035 to vendor V004 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9911339282989502
+PO-12876,normal,NONE,False,NONE,PO-12876 does not meet the split payment threshold,True,0.6713137626647949
+PO-12881,normal,NONE,False,NONE,"PO-12881 has a payment amount of INR 16,900, which is below the INR 50,000 limit, but does not meet the SOD SPLIT_BELOW_THRESHOLD rule.",True,1.1242561340332031
+PO-12886,normal,NONE,False,NONE,PO-12886 does not meet the split payment threshold,True,0.6720724105834961
+PO-12893,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-12893 has a payment amount of INR 59,100, which is above the INR 50,000 limit, and the creator and payer are the same user U046.",True,1.1570563316345215
+PO-12896,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U035 to vendor V015 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9917256832122803
+PO-12898,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U037 exceeds the threshold limit of INR 50,000.",True,0.7996377944946289
+PO-12899,normal,NONE,False,NONE,"PO-12899 has a payment amount of INR 13,450, which is below the INR 50,000 limit, but does not meet the SPLIT_BELOW_THRESHOLD rule due to the lack of other POs by the same creator to the same vendor within 7 days.",True,1.4048948287963867
+PO-12920,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U049 to vendor V034 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,1.0318353176116943
+PO-12922,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U040 to vendor V016 is within 10% below the INR 50,000 limit and does not meet the split pattern criteria.",True,1.0631296634674072
+PO-12934,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U037 to vendor V040 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,1.0327379703521729
+PO-12945,normal,NONE,False,NONE,PO-12945 is flagged as SPLIT_BELOW_THRESHOLD because it has 3 other POs by the same creator to the same vendor within 7 days and the amount is within 10% below the limit.,True,1.170604944229126
+PO-12947,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U039 to vendor V030 is below the limit and the creator and payer are the same user.,True,0.8856186866760254
+PO-12957,normal,NONE,False,NONE,PO-12957 does not meet the split payment threshold,True,0.6737692356109619
+PO-12958,normal,NONE,False,NONE,"The PO amount is below the limit, but the split pattern rule is not triggered because there are not three or more other POs by the same creator to the same vendor within 7 days.",True,1.0792157649993896
+PO-12975,normal,NONE,False,NONE,"PO-12975 has a payment amount of INR 16,670, which is below the INR 50,000 limit, but does not meet the SOD SPLIT_BELOW_THRESHOLD rule due to the lack of other POs by the same creator to the same vendor within 7 days.",True,1.4489719867706299
+PO-12991,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U039 to vendor V008 is below the limit and the creator and payer are the same user.,True,0.9014120101928711
+PO-12996,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U040 to vendor V003 is below the threshold limit of INR 50,000.",True,0.8718647956848145
+PO-13004,normal,NONE,True,SPLIT_BELOW_THRESHOLD,PO-13004 violates the SPLIT_BELOW_THRESHOLD policy because it has 4 other POs by the same creator to the same vendor within 7 days and the amount is within 10% below the limit.,True,1.1933214664459229
+PO-13016,normal,NONE,False,NONE,"PO-13016 has a payment amount of INR 18,360, which is below the INR 50,000 limit, but does not meet the SOD SPLIT_BELOW_THRESHOLD rule due to the lack of other POs by the same creator to the same vendor within 7 days.",True,1.4317681789398193
+PO-13023,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U039 to vendor V003 is below the threshold limit of INR 50,000.",True,0.941565752029419
+PO-13051,normal,NONE,False,NONE,PO-13051 is a legitimate purchase order with proper approvals and no evidence of vendor creator and payer being the same user.,True,0.8870575428009033
+PO-13059,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential violation of the VENDOR_CREATE_PAY rule.,True,0.9017391204833984
+PO-13063,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U048 to vendor V024 is within 10% below the INR 50,000 limit and there are three other POs by the same creator to the same vendor within 7 days.",True,1.235569715499878
+PO-13066,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U038 to vendor V007 is made by the same user who created the vendor record, U048.",True,0.9386296272277832
+PO-13076,normal,NONE,False,NONE,"The PO amount is below the limit, but the split pattern rule is not triggered because there are not 3+ other POs by the same creator to the same vendor within 7 days.",True,1.0553059577941895
+PO-13087,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U048 to vendor V019 is below the threshold limit of INR 50,000.",True,0.8687942028045654
+PO-13089,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U037 to vendor V006 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,1.046675682067871
+PO-13102,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U040 to vendor V023 is made by the same user who created the vendor record, U050.",True,0.8785724639892578
+PO-13114,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U049 to vendor V010 is within 10% below the INR 50,000 limit and there are three other POs by the same creator to the same vendor within 7 days.",True,1.2126896381378174
+PO-13116,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential SOD violation.,True,0.8176312446594238
+PO-13121,normal,NONE,False,NONE,PO does not meet the threshold for splitting payments,True,0.642620325088501
+PO-13126,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U036 exceeds the limit of INR 50,000.",True,0.8105936050415039
+PO-13134,normal,NONE,False,NONE,PO does not meet the threshold for splitting payments,True,0.6495459079742432
+PO-13139,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U038 to vendor V001 is below the limit and the creator and payer are the same user.,True,0.9113719463348389
+PO-13140,normal,NONE,False,NONE,PO-13140 does not meet the split payment threshold rule R5 SPLIT_BELOW_THRESHOLD,True,0.8636665344238281
+PO-13141,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential SOD violation.,True,0.8751296997070312
+PO-13156,normal,NONE,False,NONE,PO does not meet the threshold for splitting payments,True,0.6142628192901611
+PO-13159,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-13159 has a payment amount within 10% below the INR 50,000 limit and has 3 other POs by the same creator to the same vendor within 7 days, but the split pattern is not met.",True,1.2680230140686035
+PO-13166,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential SOD violation.,True,0.8176860809326172
+PO-13171,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U036 to vendor V002 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.968958854675293
+PO-13172,normal,NONE,True,SPLIT_BELOW_THRESHOLD,"PO-13172 has a payment amount of INR 13,280, which is below the INR 50,000 limit, and there are three other POs by the same creator to the same vendor within 7 days.",True,1.2793152332305908
+PO-13181,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U036 to vendor V031 is made by the same user who created the vendor record, U044.",True,0.9905719757080078
+PO-13183,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U037 to vendor V026 is below the limit and the creator and payer are the same user.,True,0.9091811180114746
+PO-13192,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U035 to vendor V011 is below the limit and the creator and payer are the same user.,True,0.9807009696960449
+PO-13208,normal,NONE,False,NONE,PO does not meet the threshold for splitting payments,True,0.6474380493164062
+PO-13215,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential SOD violation.,True,0.9026367664337158
+PO-13228,normal,NONE,False,NONE,PO-13228 is flagged as SPLIT_BELOW_THRESHOLD due to the vendor V030 being created by U048 and having multiple POs within 7 days with amounts below the limit.,True,1.0395610332489014
+PO-13233,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U035 to vendor V026 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9873442649841309
+PO-13235,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U039 to vendor V021 is below the limit and the creator and payer are the same user.,True,0.9002172946929932
+PO-13237,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U048 to vendor V006 created by U049 is below the threshold limit of INR 50,000.",True,0.9194138050079346
+PO-13242,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-13242 has a payment amount below the threshold limit of INR 50,000, but does not meet the SOD threshold criteria.",True,0.9913620948791504
+PO-13285,normal,NONE,False,NONE,PO does not meet the threshold for splitting payments,True,0.641765832901001
+PO-13295,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U050 to vendor V017 is made by the same user who created the vendor record.,True,0.910670280456543
+PO-13296,normal,NONE,False,NONE,The payment posted by the vendor creator U041 is not flagged as VENDOR_CREATE_PAY because the creator and payer are not the same user.,True,0.9243056774139404
+PO-13339,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U040 to vendor V014 is below the limit and the creator and payer are the same user, U049.",True,1.001812219619751
+PO-13348,normal,NONE,False,NONE,"The PO amount is just below the limit, but not enough to trigger the SPLIT_BELOW_THRESHOLD rule.",True,0.8176097869873047
+PO-13372,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-13372 has a payment amount below the threshold limit of INR 50,000, but does not meet the split pattern criteria.",True,0.9795458316802979
+PO-13375,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-13375 has a payment amount below the threshold limit of INR 50,000, but does not meet the SOD threshold criteria.",True,0.9856317043304443
+PO-13379,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U046 to vendor V027 is below the threshold limit of INR 50,000.",True,0.8627867698669434
+PO-13389,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U037 to vendor V035 is made by the same user who created the vendor record, U048.",True,0.9232637882232666
+PO-13398,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U040 exceeds the limit of INR 50,000.",True,0.7755076885223389
+PO-13403,normal,NONE,True,SPLIT_BELOW_THRESHOLD,PO-13403 violates the SPLIT_BELOW_THRESHOLD policy because it has three other POs by the same creator to the same vendor within 7 days and the amount is within 10% below the limit.,True,1.2262606620788574
+PO-13416,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential violation of the VENDOR_CREATE_PAY rule.,True,0.8602690696716309
+PO-13417,normal,NONE,False,NONE,The payment posted by the PO creator to the vendor they created is a potential violation of the SOD CREATE_PAY policy.,True,0.835857629776001
+PO-13433,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-13433 has a payment amount below the 10% threshold below the INR 50,000 limit, but does not meet the SOD threshold of 3 other POs by the same creator to the same vendor within 7 days.",True,1.3520278930664062
+PO-13448,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U050 to vendor V029 is within 10% below the INR 50,000 limit and there are three other POs by the same creator to the same vendor within 7 days.",True,1.2392396926879883
+PO-13464,normal,NONE,False,NONE,The payment posted by the PO creator (U047) to the vendor created by U041 (V024) is flagged as a potential violation of the SOD_CREATE_PAY rule.,True,1.027066707611084
+PO-13470,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U049 to vendor V012 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,1.0445716381072998
+PO-13472,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U039 to vendor V010 is below the limit and the creator and payer are the same user.,True,0.8823485374450684
+PO-13476,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U039 to vendor V035 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9910457134246826
+PO-13490,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U035 to vendor V003 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,1.0361106395721436
+PO-13503,normal,NONE,False,NONE,PO-13503 violates the SPLIT_BELOW_THRESHOLD policy because the payment amount is below the limit but the PO creator and payer are the same user.,True,0.9761898517608643
+PO-13506,normal,NONE,False,NONE,"PO-13506 has a payment amount of INR 11,290, which is below the INR 50,000 limit, but does not meet the SOD SPLIT_BELOW_THRESHOLD rule due to the lack of other POs by the same creator to the same vendor within 7 days.",True,1.3953337669372559
+PO-13520,normal,NONE,False,NONE,PO-13520 does not meet the split payment threshold,True,0.6998312473297119
+PO-13538,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U035 to vendor V007 is below the threshold limit of INR 50,000.",True,0.9284260272979736
+PO-13541,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-13541 has a payment amount within 10% below the INR 50,000 limit and has 3 other POs by the same creator to the same vendor within 7 days, but the split pattern is not present.",True,1.34079909324646
+PO-13543,normal,NONE,False,NONE,PO does not meet the threshold for splitting payments,True,0.6359109878540039
+PO-13595,normal,NONE,False,NONE,PO does not meet the threshold for splitting payments,True,0.6251504421234131
+PO-13603,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U039 to vendor V019 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9959707260131836
+PO-13611,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U036 to vendor V020 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,1.0078082084655762
+PO-13657,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-13657 has a payment amount of INR 173,010, which is above the INR 50,000 limit, but does not meet the SPLIT_BELOW_THRESHOLD criteria.",True,1.1160218715667725
+PO-13664,normal,NONE,False,NONE,"PO-13664 has a payment amount above the split threshold of INR 50,000.",True,0.8016648292541504
+PO-13669,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential violation of the VENDOR_CREATE_PAY rule.,True,0.8926589488983154
+PO-13692,normal,NONE,False,NONE,"PO-13692 has a payment amount of INR 5,000, which is below the INR 50,000 limit, but does not meet the SOD SPLIT_BELOW_THRESHOLD criteria.",True,1.1054491996765137
+PO-13700,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U035 to vendor V020 is below the limit and the creator and payer are the same user.,True,0.9482858180999756
+PO-13739,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U048 to vendor V001 created by U049 is below the threshold limit of INR 50,000.",True,0.9511549472808838
+PO-13748,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U038 to vendor V015 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,1.1416082382202148
+PO-13772,normal,NONE,False,NONE,"PO-13772 has a payment amount of INR 11,030, which is below the INR 50,000 limit, but does not meet the SOD SPLIT_BELOW_THRESHOLD rule due to the lack of other POs by the same creator to the same vendor within 7 days.",True,1.5834033489227295
+PO-13779,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U045 to vendor V037 is below the threshold limit of INR 50,000.",True,0.9833292961120605
+PO-13781,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-13781 has a payment amount below the split threshold of INR 50,000, but does not meet the split pattern criteria of having 3 or more other POs by the same creator to the same vendor within 7 days.",True,1.2722587585449219
+PO-13784,normal,NONE,True,VENDOR_CREATE_PAY,The PO was created by the vendor creator and the payment was posted by the same user.,True,0.7309129238128662
+PO-13785,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U036 to vendor V001 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,1.0181214809417725
+PO-13802,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U049 to vendor V010 is within 10% below the INR 50,000 limit and there are three other POs by the same creator to the same vendor within 7 days.",True,1.3551318645477295
+PO-13808,normal,NONE,False,NONE,PO does not meet the threshold for splitting payments,True,0.6759219169616699
+PO-13812,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U050 to vendor V036 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,1.0173726081848145
+PO-13813,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U035 to vendor V037 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,1.1244854927062988
+PO-13818,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-13818 has a payment amount below the threshold limit of INR 50,000, but does not meet the split pattern criteria.",True,1.0157411098480225
+PO-13835,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential SOD violation.,True,0.8789412975311279
+PO-13846,normal,NONE,False,VENDOR_CREATE_PAY,"The PO creator (U008) posted a payment to the vendor (V020) they created, violating the segregation-of-duties policy.",True,0.9804956912994385
+PO-13852,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U048 to vendor V033 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,1.1094634532928467
+PO-13858,normal,NONE,False,NONE,"PO-13858 has a payment amount of INR 6,150, which is below the INR 50,000 limit, but does not meet the SOD SPLIT_BELOW_THRESHOLD rule due to the lack of other POs by the same creator to the same vendor within 7 days.",True,1.3998973369598389
+PO-13876,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by the PO creator to the vendor is within 10% below the INR 50,000 limit and there are three other POs by the same creator to the same vendor within 7 days.",True,1.1918809413909912
+PO-13879,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-13879 has a payment amount below the split threshold of INR 50,000, but not below the 10% threshold, and does not meet the split pattern criteria.",True,1.08268404006958
+PO-13898,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U035 to vendor V009 is made by the same user who created the vendor record, U041.",True,0.8967869281768799
+PO-13916,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U049 to vendor V010 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9295954704284668
+PO-13918,normal,NONE,False,VENDOR_CREATE_PAY,The PO was created by the vendor creator and the payment was posted by the same user.,True,0.8045368194580078
+PO-13921,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U048 to vendor V037 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.973055362701416
+PO-13929,normal,NONE,False,VENDOR_CREATE_PAY,"The payment posted by U036 to vendor V040 is made by the same user who created the vendor record, U050.",True,0.8476119041442871
+PO-13937,normal,NONE,False,NONE,"PO-13937 has a payment amount of INR 7,710, which is below the INR 50,000 limit, but does not meet the SPLIT_BELOW_THRESHOLD rule due to the lack of other POs by the same creator to the same vendor within 7 days.",True,1.2961924076080322
+PO-13943,normal,NONE,False,NONE,PO-13943 does not meet the split payment threshold,True,0.6446843147277832
+PO-13968,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U039 to vendor V009 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,0.9180967807769775
+PO-13970,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U036 to vendor V012 is made by the same user who created the vendor record, U048.",True,0.8666341304779053
+PO-13995,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-13995 has a payment amount below the threshold limit of INR 50,000, but does not meet the split pattern criteria.",True,0.8947446346282959
+PO-14001,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential violation of the SOD rule.,True,0.8679654598236084
+PO-14011,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U039 to vendor V038 is below the limit and the creator and payer are the same user.,True,0.8554587364196777
+PO-14015,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-14015 has a payment amount of INR 78,640, which is above the INR 50,000 limit, but does not meet the SPLIT_BELOW_THRESHOLD criteria.",True,1.1201763153076172
+PO-14027,normal,NONE,False,NONE,"PO-14027 has a payment amount of INR 23,250, which is below the INR 50,000 limit, but does not meet the SOD SPLIT_BELOW_THRESHOLD rule due to the lack of other POs by the same creator to the same vendor within 7 days.",True,1.3894500732421875
+PO-14038,normal,NONE,False,NONE,PO-14038 does not meet the split payment threshold,True,0.6510863304138184
+PO-14044,normal,NONE,False,VENDOR_CREATE_PAY,The purchase order has been created by the same user who posted the payment to the vendor.,True,0.7972519397735596
+PO-14061,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U039 to vendor V028 is below the threshold limit of INR 50,000.",True,0.8302006721496582
+PO-14066,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U047 to vendor V016 is below the threshold limit of INR 50,000.",True,0.9706652164459229
+PO-14067,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U038 to vendor V015 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,1.0448031425476074
+PO-14076,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-14076 has a payment amount of INR 82,830, which is above the INR 50,000 limit, but does not meet the SPLIT_BELOW_THRESHOLD criteria.",True,1.1236145496368408
+PO-14094,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential SOD violation.,True,0.8694260120391846
+PO-14097,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U036 to vendor V024 is below the limit of INR 50,000 and the creator and payer are the same user U041.",True,1.025073528289795
+PO-14107,normal,NONE,False,NONE,PO-14107 does not meet the split payment threshold,True,0.727442741394043
+PO-14120,normal,NONE,False,NONE,"The PO amount is below the limit, but the split pattern rule is not triggered because there are not three or more other POs by the same creator to the same vendor within 7 days.",True,1.0692968368530273
+PO-14125,normal,NONE,True,VENDOR_CREATE_PAY,"The PO creator (U007) posted a payment to the vendor (V023) they created, violating the segregation-of-duties policy.",True,0.9641697406768799
+PO-14127,normal,NONE,True,SPLIT_BELOW_THRESHOLD,PO-14127 violates the SPLIT_BELOW_THRESHOLD policy because it has three or more other POs by the same creator to the same vendor within 7 days and the amount is within 10 percent below the limit.,True,1.3216009140014648
+PO-14135,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U038 to vendor V010 is within 10% below the INR 50,000 limit and does not meet the split pattern criteria.",True,0.9736762046813965
+PO-14170,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U046 to vendor V016 is below the threshold limit of INR 50,000.",True,0.8865556716918945
+PO-14172,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential SOD violation.,True,0.7794661521911621
+PO-14194,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-14194 has a payment amount of INR 338,800, which is above the INR 50,000 limit, but does not meet the SPLIT_BELOW_THRESHOLD criteria.",True,1.0864219665527344
+PO-14197,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U036 to vendor V014 is below the limit and the creator and payer are the same user.,True,0.8849987983703613
+PO-14206,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U047 to vendor V006 is below the threshold limit of INR 50,000.",True,0.8534879684448242
+PO-14224,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U050 to vendor V038 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9704203605651855
+PO-14227,normal,NONE,True,SPLIT_BELOW_THRESHOLD,"The payment posted by U039 to vendor V019 is below the threshold limit of INR 50,000.",True,0.8639614582061768
+PO-14229,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U035 for PO PO-14229 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,0.9943101406097412
+PO-14231,normal,NONE,False,NONE,PO-14231 has a payment amount above the limit and does not meet the SOD threshold criteria.,True,0.8651900291442871
+PO-14238,normal,NONE,False,NONE,PO-14238 does not meet the split payment threshold rule R5 SPLIT_BELOW_THRESHOLD,True,0.7571799755096436
+PO-14263,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential SOD violation.,True,0.8167586326599121
+PO-14269,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U050 to vendor V013 is within 10% below the INR 50,000 limit and there are three other POs by the same creator to the same vendor within 7 days.",True,1.196666955947876
+PO-14313,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-14313 has a payment amount below the 10% threshold below the INR 50,000 limit, but does not meet the SOD threshold of 3 other POs by the same creator to the same vendor within 7 days.",True,1.2666475772857666
+PO-14320,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U039 to vendor V014 is below the limit and the creator and payer are the same user.,True,0.8371858596801758
+PO-14325,normal,NONE,False,VENDOR_CREATE_PAY,"PO-14325 has a payment posted by the same user who created the vendor record, violating rule R3 VENDOR_CREATE_PAY.",True,0.913933515548706
+PO-14326,normal,NONE,False,NONE,PO-14326 is a legitimate purchase order with no apparent SOD policy violations.,True,0.7389671802520752
+PO-14337,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U048 to vendor V022 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,1.0330300331115723
+PO-14361,normal,NONE,True,VENDOR_CREATE_PAY,"The PO creator (U005) posted a payment to the vendor (V039) they created, violating the segregation-of-duties policy.",True,0.9317686557769775
+PO-14371,normal,NONE,False,VENDOR_CREATE_PAY,"PO-14371 has a payment posted by the same user who created the vendor record, violating rule R3 VENDOR_CREATE_PAY.",True,0.900139570236206
+PO-14374,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U037 to vendor V035 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,1.030818223953247
+PO-14378,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-14378 has a payment amount below the threshold limit of INR 50,000, but does not meet the split pattern criteria.",True,0.9382600784301758
+PO-14387,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential SOD violation.,True,0.7675890922546387
+PO-14408,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U040 to vendor V007 is within 10% below the INR 50,000 limit and does not meet the split pattern criteria.",True,1.0497403144836426
+PO-14416,normal,NONE,False,VENDOR_CREATE_PAY,"The PO amount is above the limit and the creator and payer are the same user, violating the SOD_CREATE_PAY rule.",True,0.867835521697998
+PO-14425,normal,NONE,False,NONE,"PO-14425 has a payment amount of INR 23,880, which is below the INR 50,000 limit, but does not meet the SOD SPLIT_BELOW_THRESHOLD criteria.",True,1.0602152347564697
+PO-14448,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by the PO creator to the vendor they created is a potential violation of the VENDOR_CREATE_PAY rule.,True,0.8555622100830078
+PO-14455,normal,NONE,False,NONE,"PO-14455 has a payment amount of INR 11,090, which is below the INR 50,000 limit, but does not meet the SPLIT_BELOW_THRESHOLD rule due to the lack of other POs by the same creator to the same vendor within 7 days.",True,1.3315210342407227
+PO-14459,normal,NONE,False,NONE,"PO-14459 has a payment amount of INR 11,190, which is below the INR 50,000 limit, but does not meet the SOD SPLIT_BELOW_THRESHOLD rule due to the lack of other POs by the same creator to the same vendor within 7 days.",True,1.361790418624878
+PO-14471,normal,NONE,True,VENDOR_CREATE_PAY,The payment posted by U038 to vendor V005 is below the limit and the creator and payer are the same user.,True,0.9482240676879883
+PO-14494,normal,NONE,True,SPLIT_BELOW_THRESHOLD,"PO-14494 has a payment amount of INR 6,030, which is below the INR 50,000 limit, and there are three other POs by the same creator to the same vendor within 7 days.",True,1.223235845565796
+PO-14513,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO-14513 has a payment amount below the threshold limit of INR 50,000, but does not meet the split pattern criteria.",True,0.9690778255462646
+PO-14528,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U040 to vendor V038 is below the threshold limit of INR 50,000.",True,0.8372814655303955
+PO-14545,normal,NONE,False,NONE,PO does not meet the threshold for splitting payments,True,0.5945968627929688
+PO-14548,normal,NONE,True,VENDOR_CREATE_PAY,The purchase order has been created by the same user who posted the payment to the vendor.,True,0.7529296875
+PO-14556,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U049 to vendor V012 is within 10% below the INR 50,000 limit and there are three other POs by the same creator to the same vendor within 7 days.",True,1.1334104537963867
+PO-14560,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U049 to vendor V037 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,1.0118043422698975
+PO-14570,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by U049 to vendor V007 created by U048 is a direct payment by the vendor creator.,True,0.8455729484558105
+PO-14577,normal,NONE,False,NONE,"PO-14577 has a payment amount of INR 19,610, which is below the INR 50,000 limit, but does not meet the SOD SPLIT_BELOW_THRESHOLD rule due to the lack of three or more other POs by the same creator to the same vendor within 7 days.",True,1.430485725402832
+PO-14578,normal,NONE,False,VENDOR_CREATE_PAY,The payment posted by U036 for PO PO-14578 is made by the same user who created the vendor record V018.,True,0.9687786102294922
+PO-14583,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U037 to vendor V018 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,0.9721400737762451
+PO-14584,normal,NONE,True,VENDOR_CREATE_PAY,"The payment posted by U035 to vendor V015 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9815864562988281
+PO-14600,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"The payment posted by the PO creator to the vendor is within 10% below the INR 50,000 limit and there are three other POs by the same creator to the same vendor within 7 days.",True,1.1600735187530518
+PO-14607,violation,SOD_CREATE_PAY,False,VENDOR_CREATE_PAY,The payment posted by the same user who created the vendor record is not allowed under rule R3 VENDOR_CREATE_PAY.,True,0.8910810947418213
+PO-14620,violation,SOD_CREATE_PAY,True,VENDOR_CREATE_PAY,The payment posted by the same user who created the vendor record is not allowed under rule R3 VENDOR_CREATE_PAY.,True,0.8340728282928467
+PO-14622,violation,SOD_CREATE_PAY,False,VENDOR_CREATE_PAY,The payment posted by the same user who created the vendor record is not allowed under rule R3 VENDOR_CREATE_PAY.,True,0.8995463848114014
+PO-14627,violation,SOD_CREATE_PAY,False,VENDOR_CREATE_PAY,The payment posted by the same user who created the vendor record is a potential violation of the VENDOR_CREATE_PAY rule.,True,0.838360071182251
+PO-14642,violation,SOD_CREATE_PAY,True,VENDOR_CREATE_PAY,The payment posted by the same user who created the vendor record exceeds the limit and the user is also the creator of the PO.,True,0.8698647022247314
+PO-14645,violation,SOD_CREATE_PAY,False,NONE,The payment posted by the same creator as the vendor was not flagged as VENDOR_CREATE_PAY.,True,0.8095698356628418
+PO-14668,violation,SOD_CREATE_PAY,True,VENDOR_CREATE_PAY,The payment posted by the same user who created the vendor record is not allowed under rule R3 VENDOR_CREATE_PAY.,True,0.8551201820373535
+PO-14676,violation,SOD_CREATE_PAY,True,VENDOR_CREATE_PAY,The payment posted by the same user who created the vendor record is not allowed under rule R3 VENDOR_CREATE_PAY.,True,0.8553130626678467
+PO-14685,violation,SOD_CREATE_PAY,False,VENDOR_CREATE_PAY,The payment posted by the same user who created the vendor record is not allowed under rule R3 VENDOR_CREATE_PAY.,True,0.8612792491912842
+PO-14692,violation,SELF_APPROVAL,False,NONE,"PO-14692 has a payment amount of INR 77,810, which is above the INR 50,000 limit, but the split pattern rule is not triggered because there are only two other POs by the same creator to the same vendor within 7 days.",True,1.2767345905303955
+PO-14712,violation,SELF_APPROVAL,False,SPLIT_BELOW_THRESHOLD,"The payment posted by U040 to vendor V014 is below the threshold limit of INR 50,000.",True,0.9385366439819336
+PO-14723,violation,SELF_APPROVAL,False,SPLIT_BELOW_THRESHOLD,"PO-14723 has a payment amount of INR 48,030, which is within 10% below the INR 50,000 limit, and has three other POs by the same creator to the same vendor within 7 days.",True,1.2217273712158203
+PO-14738,violation,SELF_APPROVAL,False,SPLIT_BELOW_THRESHOLD,"PO-14738 has a payment amount above the split threshold of INR 50,000.",True,0.8508780002593994
+PO-14750,violation,SELF_APPROVAL,False,NONE,"PO-14750 has a payment amount of INR 32,480, which is below the INR 50,000 limit, but does not meet the SPLIT_BELOW_THRESHOLD rule due to the lack of other POs by the same creator to the same vendor within 7 days.",True,1.3003191947937012
+PO-14760,violation,SELF_APPROVAL,True,VENDOR_CREATE_PAY,"The payment posted by U035 to vendor V028 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,1.041823148727417
+PO-14766,violation,SELF_APPROVAL,True,VENDOR_CREATE_PAY,"The payment posted by U050 to vendor V034 is made by the same user who created the vendor record, violating policy R3.",True,0.8958008289337158
+PO-14771,violation,SELF_APPROVAL,False,SPLIT_BELOW_THRESHOLD,PO-14771 has a payment amount above the limit and multiple POs by the same creator to the same vendor within 7 days.,True,0.9160106182098389
+PO-14779,violation,SELF_APPROVAL,False,NONE,"PO-14779 has a payment amount of INR 12,640, which is below the INR 50,000 limit, but does not meet the SOD SPLIT_BELOW_THRESHOLD rule due to the lack of three or more other POs by the same creator to the same vendor within 7 days.",True,1.3999876976013184
+PO-14785,violation,VENDOR_CREATE_PAY,True,VENDOR_CREATE_PAY,"The payment posted by U048 to vendor V013 created by U048 is a direct payment by the vendor creator, violating the segregation-of-duties policy.",True,1.0966839790344238
+PO-14788,violation,VENDOR_CREATE_PAY,False,VENDOR_CREATE_PAY,The payment posted by U049 to vendor V036 is made by the same user who created the vendor record.,True,0.833808183670044
+PO-14798,violation,VENDOR_CREATE_PAY,True,VENDOR_CREATE_PAY,The payment posted by U048 to vendor V027 is made by the same user who created the vendor record.,True,0.8120934963226318
+PO-14810,violation,VENDOR_CREATE_PAY,True,VENDOR_CREATE_PAY,"The payment posted by U048 to vendor V012 is made by the same user who created the vendor record, violating policy R3 VENDOR_CREATE_PAY.",True,0.9704902172088623
+PO-14813,violation,VENDOR_CREATE_PAY,True,VENDOR_CREATE_PAY,The payment posted by U049 to vendor V020 is made by the same user who created the vendor record.,True,0.8275625705718994
+PO-14842,violation,VENDOR_CREATE_PAY,False,VENDOR_CREATE_PAY,The payment posted by U048 to vendor V013 is made by the same user who created the vendor record.,True,0.880171537399292
+PO-14847,violation,VENDOR_CREATE_PAY,True,VENDOR_CREATE_PAY,The payment posted by U050 to vendor V028 is made by the same user who created the vendor record.,True,0.8040401935577393
+PO-14873,violation,MISSING_APPROVAL,False,NONE,Reviewing PO PO-14873 against the company's segregation-of-duties policy,True,0.8229851722717285
+PO-14876,violation,MISSING_APPROVAL,True,SPLIT_BELOW_THRESHOLD,"PO-14876 has a payment amount within 10% below the INR 50,000 limit and has 3 other POs by the same creator to the same vendor within 7 days.",True,1.1448554992675781
+PO-14878,violation,MISSING_APPROVAL,False,NONE,Reviewing PO PO-14878 against the company's segregation-of-duties policy,True,0.7667248249053955
+PO-14879,violation,MISSING_APPROVAL,False,NONE,Reviewing PO PO-14879 against the company's segregation-of-duties policy,True,0.7161200046539307
+PO-14885,violation,MISSING_APPROVAL,False,NONE,Reviewing PO PO-14885 against the company's segregation-of-duties policy,True,0.7062995433807373
+PO-14887,violation,MISSING_APPROVAL,False,NONE,Reviewing PO PO-14887 against the company's segregation-of-duties policy,True,0.7197539806365967
+PO-14890,violation,MISSING_APPROVAL,False,NONE,Reviewing PO PO-14890 against the company's segregation-of-duties policy,True,0.7139768600463867
+PO-14895,violation,MISSING_APPROVAL,False,SPLIT_BELOW_THRESHOLD,"PO-14895 has a payment amount below the threshold limit of INR 50,000, but does not meet the split pattern criteria.",True,1.034363031387329
+PO-14915,violation,MISSING_APPROVAL,False,NONE,Reviewing PO PO-14915 against the company's segregation-of-duties policy,True,0.7305054664611816
+PO-14983,violation,SPLIT_BELOW_THRESHOLD,False,SPLIT_BELOW_THRESHOLD,PO-14983 has a split pattern that meets the SPLIT_BELOW_THRESHOLD rule,True,0.8493342399597168
+PO-14984,violation,SPLIT_BELOW_THRESHOLD,True,SPLIT_BELOW_THRESHOLD,PO-14984 has 4 other POs by the same creator to the same vendor within 7 days and the amount is within 10% below the limit.,True,1.041738510131836
+PO-14985,violation,SPLIT_BELOW_THRESHOLD,True,VENDOR_CREATE_PAY,"The payment posted by U040 to vendor V022 is made by the same user who created the vendor record, violating the segregation-of-duties policy.",True,0.9344534873962402
+PO-14986,violation,SPLIT_BELOW_THRESHOLD,True,SPLIT_BELOW_THRESHOLD,PO-14986 has a split payment below the threshold limit,True,0.6993918418884277

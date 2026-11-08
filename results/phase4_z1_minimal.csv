@@ -1,0 +1,499 @@
+po_number,true_label,true_type,pred_violation,pred_type,reason,valid_json,sec
+PO-10019,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.9394266605377197
+PO-10020,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5193681716918945
+PO-10021,normal,NONE,False,NONE,Reviewing PO PO-10021 against the company's segregation-of-duties policy,True,0.6149060726165771
+PO-10023,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6687853336334229
+PO-10026,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6646459102630615
+PO-10044,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6299517154693604
+PO-10048,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6636648178100586
+PO-10067,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6230242252349854
+PO-10076,normal,NONE,True,SPLIT_BELOW_THRESHOLD,"Purchase Order PO-10076 created by U047, approved by U018, and paid by U045, but goods received by U025 without approval from PO_APPROVER.",True,0.884472131729126
+PO-10079,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.706918478012085
+PO-10080,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6963474750518799
+PO-10084,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6871011257171631
+PO-10085,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6493442058563232
+PO-10086,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.682448148727417
+PO-10087,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6801331043243408
+PO-10128,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6663236618041992
+PO-10129,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6597640514373779
+PO-10137,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the threshold of INR 50,000",True,0.6106376647949219
+PO-10140,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6852047443389893
+PO-10145,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6621415615081787
+PO-10160,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6984055042266846
+PO-10176,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7106318473815918
+PO-10184,normal,NONE,False,SOD_CREATE_PAY,Reviewing PO PO-10184 against the company's segregation-of-duties policy,True,0.6912603378295898
+PO-10190,normal,NONE,True,SPLIT_BELOW_THRESHOLD,PO was approved and payment was posted without adequate segregation-of-duties,True,0.6282007694244385
+PO-10195,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6261515617370605
+PO-10201,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6391077041625977
+PO-10239,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the INR 50,000 limit",True,0.6222519874572754
+PO-10266,normal,NONE,False,NONE,Reviewing PO PO-10266 against the company's segregation-of-duties policy,True,0.6148781776428223
+PO-10274,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6823720932006836
+PO-10275,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.632713794708252
+PO-10289,normal,NONE,False,SELF_APPROVAL,PO was approved by the creator,True,0.49884462356567383
+PO-10296,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6426353454589844
+PO-10311,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6654751300811768
+PO-10324,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6215627193450928
+PO-10343,normal,NONE,False,NONE,Reviewing PO PO-10343 against the company's segregation-of-duties policy,True,0.6188032627105713
+PO-10345,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6378841400146484
+PO-10355,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6774096488952637
+PO-10360,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6391499042510986
+PO-10365,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6363787651062012
+PO-10373,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6754131317138672
+PO-10381,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6787395477294922
+PO-10395,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6347160339355469
+PO-10407,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6606225967407227
+PO-10409,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6630630493164062
+PO-10413,normal,NONE,False,NONE,Reviewing PO PO-10413 against the company's segregation-of-duties policy,True,0.6142280101776123
+PO-10454,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6248090267181396
+PO-10471,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.522742748260498
+PO-10495,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6653134822845459
+PO-10497,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6238112449645996
+PO-10501,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5249874591827393
+PO-10505,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the INR 50,000 limit",True,0.5910794734954834
+PO-10514,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.636277437210083
+PO-10556,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5302536487579346
+PO-10564,normal,NONE,False,MISSING_APPROVAL,"Purchase order exceeds 10% below the INR 50,000 limit",True,0.6383774280548096
+PO-10570,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6353120803833008
+PO-10575,normal,NONE,False,MISSING_APPROVAL,"Purchase order exceeds 10% below the INR 50,000 limit",True,0.6342060565948486
+PO-10601,normal,NONE,False,NONE,Reviewing PO PO-10601 against the company's segregation-of-duties policy,True,0.6252598762512207
+PO-10625,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6705338954925537
+PO-10632,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6296014785766602
+PO-10635,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6640887260437012
+PO-10637,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6375770568847656
+PO-10644,normal,NONE,False,NONE,Reviewing PO PO-10644 against the company's segregation-of-duties policy,True,0.6151485443115234
+PO-10660,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.628969669342041
+PO-10661,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6300158500671387
+PO-10668,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO amount is below the threshold of INR 50,000",True,0.6179213523864746
+PO-10669,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6637425422668457
+PO-10674,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6279647350311279
+PO-10680,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5447664260864258
+PO-10683,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6412510871887207
+PO-10693,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5393860340118408
+PO-10695,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6884801387786865
+PO-10697,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6448173522949219
+PO-10698,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the INR 50,000 limit",True,0.601768970489502
+PO-10706,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6417975425720215
+PO-10741,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the INR 50,000 limit",True,0.596383810043335
+PO-10746,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.66642165184021
+PO-10753,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6706650257110596
+PO-10802,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the INR 50,000 limit",True,0.593595027923584
+PO-10809,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.666715145111084
+PO-10810,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6250660419464111
+PO-10827,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6257083415985107
+PO-10844,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6242361068725586
+PO-10845,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.628340482711792
+PO-10849,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6804389953613281
+PO-10865,normal,NONE,False,NONE,Reviewing PO PO-10865 against the company's segregation-of-duties policy,True,0.627272367477417
+PO-10874,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6379964351654053
+PO-10884,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5321459770202637
+PO-10888,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5339131355285645
+PO-10919,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO amount is below the threshold of INR 50,000",True,0.6255741119384766
+PO-10921,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6373794078826904
+PO-10948,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6286227703094482
+PO-10951,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.531141996383667
+PO-10959,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.635507345199585
+PO-10969,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5342419147491455
+PO-10970,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5280530452728271
+PO-10982,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6309549808502197
+PO-10985,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5310170650482178
+PO-10988,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6695313453674316
+PO-10996,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO amount is below the threshold of INR 50,000",True,0.6274862289428711
+PO-11000,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.676262617111206
+PO-11046,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6469941139221191
+PO-11064,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6872992515563965
+PO-11065,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the INR 50,000 limit",True,0.6080472469329834
+PO-11068,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6488611698150635
+PO-11070,normal,NONE,False,SOD_CREATE_PAY,Reviewing PO PO-11070 against the company's segregation-of-duties policy,True,0.6953244209289551
+PO-11076,normal,NONE,True,SOD_CREATE_PAY,"Purchase Order PO-11076 created by U046, approved by U018, and payment posted by U045, violating segregation-of-duties policy.",True,0.8477449417114258
+PO-11077,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.646897554397583
+PO-11078,normal,NONE,False,MISSING_APPROVAL,"Purchase Order PO-11078 created by U001 to vendor V011 exceeds 10% below the INR 50,000 limit",True,0.7865931987762451
+PO-11086,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the threshold of INR 50,000",True,0.6122524738311768
+PO-11087,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6364235877990723
+PO-11088,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6506516933441162
+PO-11089,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6504049301147461
+PO-11113,normal,NONE,False,NONE,Reviewing PO PO-11113 against the company's segregation-of-duties policy,True,0.6424672603607178
+PO-11115,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5498452186584473
+PO-11137,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6475048065185547
+PO-11140,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7124598026275635
+PO-11144,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5479183197021484
+PO-11145,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6459455490112305
+PO-11162,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6928918361663818
+PO-11170,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6871945858001709
+PO-11178,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5491030216217041
+PO-11194,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6504020690917969
+PO-11197,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.689002275466919
+PO-11242,normal,NONE,False,NONE,Reviewing PO PO-11242 against the company's segregation-of-duties policy,True,0.644345760345459
+PO-11257,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6863863468170166
+PO-11269,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6821322441101074
+PO-11275,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6764011383056641
+PO-11298,normal,NONE,False,SELF_APPROVAL,"PO was approved by a user with PO_APPROVER role, but the creator also has PO_CREator role.",True,0.7070236206054688
+PO-11307,normal,NONE,False,NONE,Reviewing PO PO-11307 against the company's segregation-of-duties policy,True,0.6253902912139893
+PO-11317,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6469767093658447
+PO-11330,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6658406257629395
+PO-11332,normal,NONE,False,NONE,Reviewing PO PO-11332 against the company's segregation-of-duties policy,True,0.641310453414917
+PO-11339,normal,NONE,False,NONE,Reviewing PO PO-11339 against the company's segregation-of-duties policy,True,0.6365253925323486
+PO-11340,normal,NONE,False,NONE,Reviewing PO PO-11340 against the company's segregation-of-duties policy,True,0.6397771835327148
+PO-11343,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO amount is below the threshold of INR 50,000",True,0.6420955657958984
+PO-11348,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6605384349822998
+PO-11359,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6516532897949219
+PO-11362,normal,NONE,False,NONE,Reviewing PO PO-11362 against the company's segregation-of-duties policy,True,0.6425044536590576
+PO-11363,normal,NONE,False,SOD_CREATE_PAY,Reviewing PO PO-11363 against the company's segregation-of-duties policy,True,0.8874762058258057
+PO-11366,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6694016456604004
+PO-11422,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6929812431335449
+PO-11427,normal,NONE,False,NONE,Reviewing PO PO-11427 against the company's segregation-of-duties policy,True,0.6243269443511963
+PO-11429,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6300745010375977
+PO-11444,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7075300216674805
+PO-11447,normal,NONE,False,NONE,Reviewing PO PO-11447 against the company's segregation-of-duties policy,True,0.62703537940979
+PO-11448,normal,NONE,False,SOD_CREATE_PAY,Reviewing PO against segregation-of-duties policy,True,0.5764703750610352
+PO-11451,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5461907386779785
+PO-11487,normal,NONE,False,SELF_APPROVAL,PO was approved by the approver and payment was posted by the creator,True,0.6451170444488525
+PO-11495,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6566381454467773
+PO-11498,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5454907417297363
+PO-11505,normal,NONE,False,SOD_CREATE_PAY,Reviewing PO PO-11505 against the company's segregation-of-duties policy,True,0.6837460994720459
+PO-11517,normal,NONE,False,MISSING_APPROVAL,PO was approved and payment was posted without review of goods received,True,0.6154999732971191
+PO-11519,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6543629169464111
+PO-11523,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7199504375457764
+PO-11524,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the INR 50,000 limit",True,0.6063547134399414
+PO-11525,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6540336608886719
+PO-11537,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6582369804382324
+PO-11551,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6556477546691895
+PO-11554,normal,NONE,False,NONE,Reviewing PO PO-11554 against the company's segregation-of-duties policy,True,0.6346454620361328
+PO-11561,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6434769630432129
+PO-11599,normal,NONE,False,SOD_CREATE_PAY,PO was approved by PO_APPROVER and payment was posted by PAYMENT_PROCESSOR,True,0.8654112815856934
+PO-11609,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6830098628997803
+PO-11611,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6483790874481201
+PO-11618,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6518454551696777
+PO-11621,normal,NONE,False,NONE,Reviewing PO PO-11621 against the company's segregation-of-duties policy,True,0.6435961723327637
+PO-11627,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO amount is below the threshold of INR 50,000",True,0.6641805171966553
+PO-11629,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6606471538543701
+PO-11643,normal,NONE,False,SOD_CREATE_PAY,Reviewing PO PO-11643 against the company's segregation-of-duties policy,True,0.6827569007873535
+PO-11655,normal,NONE,False,MISSING_APPROVAL,"Purchase order exceeds 10% below the INR 50,000 limit",True,0.6642084121704102
+PO-11666,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6880614757537842
+PO-11689,normal,NONE,False,SOD_CREATE_PAY,Reviewing PO PO-11689 against the company's segregation-of-duties policy,True,0.6718885898590088
+PO-11711,normal,NONE,False,NONE,Reviewing PO PO-11711 against the company's segregation-of-duties policy,True,0.6277027130126953
+PO-11714,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the INR 50,000 limit",True,0.6074888706207275
+PO-11726,normal,NONE,False,NONE,Reviewing PO PO-11726 against the company's segregation-of-duties policy,True,0.6526203155517578
+PO-11736,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6678926944732666
+PO-11745,normal,NONE,False,NONE,Reviewing PO PO-11745 against the company's segregation-of-duties policy,True,0.6340689659118652
+PO-11754,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6586694717407227
+PO-11763,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7233486175537109
+PO-11765,normal,NONE,True,SELF_APPROVAL,PO was approved by a user with dual roles (PO_APPROVER and PO_CREATOR) without segregation of duties,True,0.7669415473937988
+PO-11771,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.663956880569458
+PO-11774,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the INR 50,000 limit",True,0.6226141452789307
+PO-11790,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.708730936050415
+PO-11792,normal,NONE,False,NONE,Reviewing PO PO-11792 against the company's segregation-of-duties policy,True,0.6542372703552246
+PO-11795,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6668148040771484
+PO-11802,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the INR 50,000 limit",True,0.6228017807006836
+PO-11804,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6411628723144531
+PO-11814,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6546640396118164
+PO-11835,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6428370475769043
+PO-11843,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6473519802093506
+PO-11855,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6924784183502197
+PO-11865,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6902680397033691
+PO-11874,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6909832954406738
+PO-11878,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6947269439697266
+PO-11895,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.705815315246582
+PO-11896,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7055425643920898
+PO-11921,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5621800422668457
+PO-11965,normal,NONE,True,SELF_APPROVAL,"PO was approved by the same user who created it, violating segregation-of-duties policy.",True,0.6970548629760742
+PO-11969,normal,NONE,True,SOD_CREATE_PAY,"Purchase order PO-11969 created by U046, a role with both PO_CREator and PAYMENT_PROCESSOR, without proper segregation-of-duties",True,0.8983128070831299
+PO-11971,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5577297210693359
+PO-11977,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.672602653503418
+PO-11991,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7267687320709229
+PO-11999,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6821169853210449
+PO-12002,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6552538871765137
+PO-12012,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5552268028259277
+PO-12013,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.654998779296875
+PO-12045,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5391824245452881
+PO-12061,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5551066398620605
+PO-12071,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6635653972625732
+PO-12088,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7285003662109375
+PO-12104,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5695068836212158
+PO-12116,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6731364727020264
+PO-12118,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6620991230010986
+PO-12151,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.669752836227417
+PO-12162,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7135133743286133
+PO-12164,normal,NONE,False,NONE,Reviewing PO PO-12164 against the company's segregation-of-duties policy,True,0.6654322147369385
+PO-12173,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6612777709960938
+PO-12179,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5556187629699707
+PO-12181,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.657935619354248
+PO-12193,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5377442836761475
+PO-12204,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6593189239501953
+PO-12219,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5391831398010254
+PO-12224,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.702172040939331
+PO-12242,normal,NONE,False,SELF_APPROVAL,"PO was approved by a user with PO_APPROVER role, but the PO creator also has PO_APPROVER role.",True,0.7310099601745605
+PO-12244,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.558290958404541
+PO-12267,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5648126602172852
+PO-12271,normal,NONE,False,MISSING_APPROVAL,"Purchase order exceeds 10% below the INR 50,000 limit",True,0.6667864322662354
+PO-12276,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.680748701095581
+PO-12277,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5615811347961426
+PO-12281,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6685218811035156
+PO-12297,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7176251411437988
+PO-12298,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5744965076446533
+PO-12299,normal,NONE,False,NONE,Reviewing PO PO-12299 against the company's segregation-of-duties policy,True,0.6483967304229736
+PO-12304,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6708633899688721
+PO-12317,normal,NONE,True,SPLIT_BELOW_THRESHOLD,PO was approved and payment was posted without adequate segregation-of-duties,True,0.6654231548309326
+PO-12331,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6752912998199463
+PO-12332,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6563892364501953
+PO-12333,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.688730001449585
+PO-12353,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.685673713684082
+PO-12371,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7010433673858643
+PO-12383,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5763397216796875
+PO-12385,normal,NONE,False,NONE,Reviewing PO PO-12385 against the company's segregation-of-duties policy,True,0.6683340072631836
+PO-12402,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6984357833862305
+PO-12409,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6822478771209717
+PO-12427,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7145805358886719
+PO-12435,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO amount is below the threshold of INR 50,000",True,0.6825339794158936
+PO-12442,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6838862895965576
+PO-12445,normal,NONE,True,SPLIT_BELOW_THRESHOLD,PO was approved and payment was posted without adequate segregation-of-duties,True,0.664614200592041
+PO-12446,normal,NONE,False,NONE,Reviewing PO PO-12446 against the company's segregation-of-duties policy,True,0.651836633682251
+PO-12454,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the INR 50,000 limit",True,0.6179420948028564
+PO-12455,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6448013782501221
+PO-12476,normal,NONE,False,NONE,Reviewing PO PO-12476 against the company's segregation-of-duties policy,True,0.6474008560180664
+PO-12494,normal,NONE,True,SPLIT_BELOW_THRESHOLD,PO was approved and payment was posted without adequate segregation-of-duties,True,0.6558098793029785
+PO-12497,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7097651958465576
+PO-12499,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5473518371582031
+PO-12517,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6759424209594727
+PO-12518,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6705138683319092
+PO-12522,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7240221500396729
+PO-12531,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.562605619430542
+PO-12537,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6798512935638428
+PO-12578,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6777040958404541
+PO-12584,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6746311187744141
+PO-12586,normal,NONE,True,SELF_APPROVAL,"PO was approved by the same user who created it, violating segregation-of-duties policy.",True,0.734940767288208
+PO-12592,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6829438209533691
+PO-12600,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6618666648864746
+PO-12627,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6956362724304199
+PO-12630,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.663123607635498
+PO-12648,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.7025794982910156
+PO-12651,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6938750743865967
+PO-12656,normal,NONE,False,NONE,Reviewing PO PO-12656 against the company's segregation-of-duties policy,True,0.6884429454803467
+PO-12669,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6764733791351318
+PO-12677,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6619875431060791
+PO-12685,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7176072597503662
+PO-12696,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7142467498779297
+PO-12703,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6710410118103027
+PO-12713,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6814079284667969
+PO-12714,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6762125492095947
+PO-12731,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6629939079284668
+PO-12738,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6720592975616455
+PO-12741,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.708564043045044
+PO-12744,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.6996464729309082
+PO-12745,normal,NONE,False,NONE,Reviewing PO PO-12745 against the company's segregation-of-duties policy,True,0.6529405117034912
+PO-12762,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6659390926361084
+PO-12764,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7017617225646973
+PO-12793,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7104084491729736
+PO-12801,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6905887126922607
+PO-12805,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6741199493408203
+PO-12862,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6747815608978271
+PO-12864,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.688838005065918
+PO-12876,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5728857517242432
+PO-12881,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6794617176055908
+PO-12886,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the INR 50,000 limit",True,0.6500475406646729
+PO-12893,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.7098910808563232
+PO-12896,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5648691654205322
+PO-12898,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6809811592102051
+PO-12899,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6760239601135254
+PO-12920,normal,NONE,False,SELF_APPROVAL,PO was approved by the creator,True,0.5497255325317383
+PO-12922,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.663581132888794
+PO-12934,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the INR 50,000 limit",True,0.6240148544311523
+PO-12945,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5609860420227051
+PO-12947,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5493040084838867
+PO-12957,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7280888557434082
+PO-12958,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7182681560516357
+PO-12975,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5639147758483887
+PO-12991,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the INR 50,000 limit",True,0.6390151977539062
+PO-12996,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6693713665008545
+PO-13004,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the INR 50,000 limit",True,0.667750358581543
+PO-13016,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.6310312747955322
+PO-13023,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6724145412445068
+PO-13051,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5557794570922852
+PO-13059,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7048838138580322
+PO-13063,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6610798835754395
+PO-13066,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6591880321502686
+PO-13076,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7139334678649902
+PO-13087,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6773536205291748
+PO-13089,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6733794212341309
+PO-13102,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6975512504577637
+PO-13114,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6695477962493896
+PO-13116,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.707252025604248
+PO-13121,normal,NONE,False,NONE,Reviewing PO PO-13121 against the company's segregation-of-duties policy,True,0.7128946781158447
+PO-13126,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5709028244018555
+PO-13134,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5722641944885254
+PO-13139,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6904439926147461
+PO-13140,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO amount is below the threshold of INR 50,000",True,0.6802978515625
+PO-13141,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5684947967529297
+PO-13156,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.711911678314209
+PO-13159,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5606338977813721
+PO-13166,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7205431461334229
+PO-13171,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7488710880279541
+PO-13172,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6629962921142578
+PO-13181,normal,NONE,True,SELF_APPROVAL,"PO was approved by U017, but the vendor V031 was created by U044, violating segregation-of-duties policy.",True,0.7908568382263184
+PO-13183,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6813945770263672
+PO-13192,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6930415630340576
+PO-13208,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5756204128265381
+PO-13215,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6775619983673096
+PO-13228,normal,NONE,False,NONE,Reviewing PO PO-13228 against the company's segregation-of-duties policy,True,0.6667520999908447
+PO-13233,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6724133491516113
+PO-13235,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7276308536529541
+PO-13237,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7250642776489258
+PO-13242,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5539839267730713
+PO-13285,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6622936725616455
+PO-13295,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5528571605682373
+PO-13296,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5575079917907715
+PO-13339,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6732535362243652
+PO-13348,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7152023315429688
+PO-13372,normal,NONE,False,SELF_APPROVAL,"PO was approved by a user with PO_APPROVER role, but the PO was created by a user with PO_CREATOR role.",True,0.7922945022583008
+PO-13375,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.662468433380127
+PO-13379,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6767270565032959
+PO-13389,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6723690032958984
+PO-13398,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6854531764984131
+PO-13403,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5666890144348145
+PO-13416,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5630228519439697
+PO-13417,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6868431568145752
+PO-13433,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5860264301300049
+PO-13448,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6872258186340332
+PO-13464,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6746892929077148
+PO-13470,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5788919925689697
+PO-13472,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6688690185546875
+PO-13476,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5664029121398926
+PO-13490,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the INR 50,000 limit",True,0.6255576610565186
+PO-13503,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5662405490875244
+PO-13506,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7077863216400146
+PO-13520,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5634975433349609
+PO-13538,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6828298568725586
+PO-13541,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5712413787841797
+PO-13543,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5634050369262695
+PO-13595,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5803689956665039
+PO-13603,normal,NONE,False,SELF_APPROVAL,PO was approved by a user with a different role than the PO creator,True,0.6442365646362305
+PO-13611,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO amount is below the threshold of INR 50,000",True,0.6751019954681396
+PO-13657,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6692996025085449
+PO-13664,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6852273941040039
+PO-13669,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6736478805541992
+PO-13692,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO amount is below the threshold limit of INR 50,000",True,0.6640145778656006
+PO-13700,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6672515869140625
+PO-13739,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5582926273345947
+PO-13748,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6660473346710205
+PO-13772,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO amount is below the threshold of INR 50,000",True,0.661686897277832
+PO-13779,normal,NONE,True,SPLIT_BELOW_THRESHOLD,PO was approved and payment was posted without adequate segregation-of-duties,True,0.6583166122436523
+PO-13781,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6876306533813477
+PO-13784,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7221529483795166
+PO-13785,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5809962749481201
+PO-13802,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6875085830688477
+PO-13808,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.7733476161956787
+PO-13812,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO amount is below the threshold of INR 50,000",True,0.6812028884887695
+PO-13813,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6982295513153076
+PO-13818,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.749671220779419
+PO-13835,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the INR 50,000 limit",True,0.653672456741333
+PO-13846,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7135794162750244
+PO-13852,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6602952480316162
+PO-13858,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6734037399291992
+PO-13876,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.670701265335083
+PO-13879,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.666339635848999
+PO-13898,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6494271755218506
+PO-13916,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.570063591003418
+PO-13918,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% of the INR 50,000 limit",True,0.6907651424407959
+PO-13921,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6907351016998291
+PO-13929,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.587047815322876
+PO-13937,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6954762935638428
+PO-13943,normal,NONE,True,SPLIT_BELOW_THRESHOLD,PO was approved and payment was posted without adequate segregation-of-duties,True,0.6720790863037109
+PO-13968,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7234025001525879
+PO-13970,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6839044094085693
+PO-13995,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5790717601776123
+PO-14001,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6666591167449951
+PO-14011,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6684157848358154
+PO-14015,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6759247779846191
+PO-14027,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6662254333496094
+PO-14038,normal,NONE,False,SELF_APPROVAL,PO was approved by multiple users with different roles,True,0.5951011180877686
+PO-14044,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6738781929016113
+PO-14061,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6839108467102051
+PO-14066,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.7052268981933594
+PO-14067,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7326812744140625
+PO-14076,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6818389892578125
+PO-14094,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6774787902832031
+PO-14097,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6925439834594727
+PO-14107,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.58994460105896
+PO-14120,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5831499099731445
+PO-14125,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6773326396942139
+PO-14127,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.573988676071167
+PO-14135,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7003533840179443
+PO-14170,normal,NONE,False,SELF_APPROVAL,"PO was approved by a user with PO_APPROVER role, but the PO creator also has PO_CREator role.",True,0.7520427703857422
+PO-14172,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6789531707763672
+PO-14194,normal,NONE,True,SELF_APPROVAL,"PO was approved by the same user who created it, violating segregation-of-duties policy.",True,0.6935455799102783
+PO-14197,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6707515716552734
+PO-14206,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6784095764160156
+PO-14224,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO amount is below the threshold of INR 50,000",True,0.6523089408874512
+PO-14227,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6875991821289062
+PO-14229,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7271826267242432
+PO-14231,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.7005712985992432
+PO-14238,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5829637050628662
+PO-14263,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5795700550079346
+PO-14269,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6886773109436035
+PO-14313,normal,NONE,False,NONE,Reviewing PO PO-14313 against the company's segregation-of-duties policy,True,0.6693642139434814
+PO-14320,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7141952514648438
+PO-14325,normal,NONE,False,SOD_CREATE_PAY,Reviewing PO against segregation-of-duties policy,True,0.6022117137908936
+PO-14326,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the INR 50,000 limit",True,0.6243987083435059
+PO-14337,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5662117004394531
+PO-14361,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7021915912628174
+PO-14371,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.6260592937469482
+PO-14374,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.6055212020874023
+PO-14378,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7139644622802734
+PO-14387,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.6469323635101318
+PO-14408,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7278501987457275
+PO-14416,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7389917373657227
+PO-14425,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6835215091705322
+PO-14448,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7425713539123535
+PO-14455,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6839215755462646
+PO-14459,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO amount is below the threshold of INR 50,000",True,0.6741559505462646
+PO-14471,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6886179447174072
+PO-14494,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6631615161895752
+PO-14513,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.683546781539917
+PO-14528,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6660070419311523
+PO-14545,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7152807712554932
+PO-14548,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5931253433227539
+PO-14556,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6733496189117432
+PO-14560,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.7037363052368164
+PO-14570,normal,NONE,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5798876285552979
+PO-14577,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the INR 50,000 limit",True,0.6436407566070557
+PO-14578,normal,NONE,False,SPLIT_BELOW_THRESHOLD,"PO amount is below the threshold limit of INR 50,000",True,0.6819109916687012
+PO-14583,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the INR 50,000 limit",True,0.6508834362030029
+PO-14584,normal,NONE,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7361137866973877
+PO-14600,normal,NONE,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6929712295532227
+PO-14607,violation,SOD_CREATE_PAY,False,SOD_CREATE_PAY,Reviewing PO PO-14607 against the company's segregation-of-duties policy,True,0.7134945392608643
+PO-14620,violation,SOD_CREATE_PAY,False,NONE,Reviewing PO PO-14620 against the company's segregation-of-duties policy,True,0.6696033477783203
+PO-14622,violation,SOD_CREATE_PAY,False,NONE,Reviewing PO PO-14622 against the company's segregation-of-duties policy,True,0.6579937934875488
+PO-14627,violation,SOD_CREATE_PAY,False,SOD_CREATE_PAY,Purchase order PO-14627 created by PO_CREator and Payment_Processor roles,True,0.6989424228668213
+PO-14642,violation,SOD_CREATE_PAY,False,SPLIT_BELOW_THRESHOLD,"PO amount is below the threshold of INR 50,000",True,0.6707701683044434
+PO-14645,violation,SOD_CREATE_PAY,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7129192352294922
+PO-14668,violation,SOD_CREATE_PAY,False,MISSING_APPROVAL,"Purchase order exceeds 10% below the INR 50,000 limit",True,0.6687130928039551
+PO-14676,violation,SOD_CREATE_PAY,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6777055263519287
+PO-14685,violation,SOD_CREATE_PAY,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.695763111114502
+PO-14692,violation,SELF_APPROVAL,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6924703121185303
+PO-14712,violation,SELF_APPROVAL,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6936404705047607
+PO-14723,violation,SELF_APPROVAL,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6961984634399414
+PO-14738,violation,SELF_APPROVAL,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6931874752044678
+PO-14750,violation,SELF_APPROVAL,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.7804028987884521
+PO-14760,violation,SELF_APPROVAL,True,SELF_APPROVAL,"PO was approved by the same user who created it, violating segregation-of-duties policy.",True,0.760728120803833
+PO-14766,violation,SELF_APPROVAL,True,SELF_APPROVAL,"PO was approved by the same user who created it, violating segregation-of-duties policy.",True,0.7204251289367676
+PO-14771,violation,SELF_APPROVAL,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.7377011775970459
+PO-14779,violation,SELF_APPROVAL,False,MISSING_APPROVAL,"PO amount is below the INR 50,000 limit",True,0.6467630863189697
+PO-14785,violation,VENDOR_CREATE_PAY,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7159183025360107
+PO-14788,violation,VENDOR_CREATE_PAY,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7136728763580322
+PO-14798,violation,VENDOR_CREATE_PAY,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6804618835449219
+PO-14810,violation,VENDOR_CREATE_PAY,False,SPLIT_BELOW_THRESHOLD,"PO amount is below the threshold limit of INR 50,000",True,0.6780002117156982
+PO-14813,violation,VENDOR_CREATE_PAY,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6827573776245117
+PO-14842,violation,VENDOR_CREATE_PAY,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5942642688751221
+PO-14847,violation,VENDOR_CREATE_PAY,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.7079613208770752
+PO-14873,violation,MISSING_APPROVAL,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7340717315673828
+PO-14876,violation,MISSING_APPROVAL,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.689063310623169
+PO-14878,violation,MISSING_APPROVAL,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5676624774932861
+PO-14879,violation,MISSING_APPROVAL,False,SOD_CREATE_PAY,PO was posted by multiple users with different roles,True,0.5974631309509277
+PO-14885,violation,MISSING_APPROVAL,False,MISSING_APPROVAL,"PO amount is below the INR 50,000 limit",True,0.6346955299377441
+PO-14887,violation,MISSING_APPROVAL,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5721144676208496
+PO-14890,violation,MISSING_APPROVAL,False,MISSING_APPROVAL,"PO amount exceeds 10% below the INR 50,000 limit",True,0.6631529331207275
+PO-14895,violation,MISSING_APPROVAL,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5588946342468262
+PO-14915,violation,MISSING_APPROVAL,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5559272766113281
+PO-14983,violation,SPLIT_BELOW_THRESHOLD,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7121453285217285
+PO-14984,violation,SPLIT_BELOW_THRESHOLD,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7482268810272217
+PO-14985,violation,SPLIT_BELOW_THRESHOLD,False,MISSING_APPROVAL,"PO amount is below the 10% threshold below the INR 50,000 limit",True,0.7547140121459961
+PO-14986,violation,SPLIT_BELOW_THRESHOLD,False,NONE,Reviewing PO against segregation-of-duties policy,True,0.5593745708465576

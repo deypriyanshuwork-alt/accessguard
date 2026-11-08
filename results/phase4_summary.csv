@@ -1,0 +1,5 @@
+name,precision,recall,f1,type_acc_on_violations,invalid_json,sec_per_case,n
+phase3_z0_full_policy_in_prompt,0.1,0.737,0.177,0.342,0.0,0.583,498
+phase4_z1_minimal,0.125,0.053,0.074,0.211,0.0,0.657,498
+phase4_z2_rag,0.333,0.053,0.091,0.053,0.0,0.687,498
+phase4_z3_rag_evidence,0.089,0.395,0.146,0.263,0.0,0.967,498
