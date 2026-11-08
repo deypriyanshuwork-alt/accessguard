@@ -3,6 +3,7 @@
 venv/
 ENV/
 
+
 # Python cache
 __pycache__/
 *.py[cod]
@@ -18,6 +19,7 @@ results/*.png
 results/*.json
 !data/.gitkeep
 !results/.gitkeep
+vectordb/
 
 # OS & IDE files
 .DS_Store
