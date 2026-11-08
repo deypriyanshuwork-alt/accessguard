@@ -1,0 +1,7 @@
+name,valid,flagged,caught,of,false_alarms,precision,recall,f1,type_acc,sec_per_case,note
+Z0 rules in prompt,True,279,30,41,249,0.108,0.732,0.188,0.317,0.58,over-flags: id and approval hallucinations
+Z1 no rules,True,16,2,41,14,0.125,0.049,0.07,0.22,0.66,model needs the rules
+Z2 RAG,False,6,3,41,3,0.5,0.073,0.128,0.122,0.69,INVALID: retrieval identical for all queries
+Z3 RAG+evidence,False,168,18,41,150,0.107,0.439,0.172,0.268,0.97,INVALID: same retrieval bug
+Z4 policy+evidence,True,12,9,41,3,0.75,0.22,0.34,0.22,0.54,acts only on the missing-approval check
+evidence_function (code),True,41,41,41,0,1.0,1.0,1.0,,0.0,deterministic reference
